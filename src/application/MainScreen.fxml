@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.BorderPane?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="393.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <BorderPane fx:id="mainPane" prefHeight="390.0" prefWidth="600.0">
+         <left>
+            <VBox alignment="TOP_CENTER" prefHeight="400.0" prefWidth="101.0" style="-fx-background-color: dedcd6;" BorderPane.alignment="CENTER">
+               <children>
+                  <AnchorPane prefHeight="400.0" prefWidth="110.0">
+                     <children>
+                        <Button layoutX="7.0" layoutY="23.0" mnemonicParsing="false" onAction="#handleButton1Action" prefHeight="38.0" prefWidth="86.0" style="-fx-background-color: #a49292;" text="Triều đại" textFill="#f2efef">
+                           <font>
+                              <Font size="16.0" />
+                           </font>
+                        </Button>
+                        <Button layoutX="7.0" layoutY="96.0" mnemonicParsing="false" onAction="#handleButton2Action" prefHeight="38.0" prefWidth="86.0" style="-fx-background-color: #a49292;" text="Sự kiện" textFill="#f2efef">
+                           <font>
+                              <Font size="16.0" />
+                           </font>
+                        </Button>
+                        <Button layoutX="7.0" layoutY="172.0" mnemonicParsing="false" onAction="#handleButton3Action" prefHeight="38.0" prefWidth="86.0" style="-fx-background-color: #a49292;" text="Nhân vật" textFill="#f2efef">
+                           <font>
+                              <Font size="16.0" />
+                           </font>
+                        </Button>
+                        <Button layoutX="7.0" layoutY="245.0" mnemonicParsing="false" onAction="#handleButton4Action" prefHeight="38.0" prefWidth="86.0" style="-fx-background-color: #a49292;" text="Địa điểm" textFill="#f2efef">
+                           <font>
+                              <Font size="16.0" />
+                           </font>
+                        </Button>
+                        <Button layoutX="7.0" layoutY="323.0" mnemonicParsing="false" onAction="#handleButton5Action" prefHeight="38.0" prefWidth="86.0" style="-fx-background-color: #a49292;" text="Lễ hội" textFill="#f2efef">
+                           <font>
+                              <Font size="16.0" />
+                           </font>
+                        </Button>
+                     </children>
+                  </AnchorPane>
+               </children>
+            </VBox>
+         </left>
+      </BorderPane>
+   </children>
+</AnchorPane>

@@ -15,7 +15,7 @@
       <TableView fx:id="table" layoutX="19.0" layoutY="101.0" prefHeight="342.0" prefWidth="266.0">
         <columns>
           <TableColumn fx:id="idCol" prefWidth="75.0" text="Id" />
-          <TableColumn fx:id="titleCol" prefWidth="159.1999740600586" text="Title" />
+          <TableColumn fx:id="titleCol" prefWidth="190.39999237060545" text="Title" />
         </columns>
       </TableView>
       <Button fx:id="detailBtn" layoutX="470.0" layoutY="453.0" mnemonicParsing="false" onAction="#pressDetailBtn" prefHeight="29.0" prefWidth="118.0" text="Details" />

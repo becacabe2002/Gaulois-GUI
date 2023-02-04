@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.control.TextArea?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="497.0" prefWidth="756.0" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.controllers.DiaDiemDetailController">
+   <children>
+      <TableView fx:id="table" layoutX="19.0" layoutY="101.0" prefHeight="342.0" prefWidth="266.0">
+        <columns>
+          <TableColumn fx:id="idCol" prefWidth="75.0" text="Id" />
+          <TableColumn fx:id="titleCol" prefWidth="159.1999740600586" text="Title" />
+        </columns>
+      </TableView>
+      <Button fx:id="detailBtn" layoutX="470.0" layoutY="453.0" mnemonicParsing="false" onAction="#pressDetailBtn" prefHeight="29.0" prefWidth="118.0" text="Details" />
+      <Label fx:id="nameLabel" layoutX="311.0" layoutY="47.0" prefHeight="40.0" prefWidth="163.0" text="DiaDiem" wrapText="true">
+         <font>
+            <Font name="System Bold Italic" size="17.0" />
+         </font>
+      </Label>
+      <TextArea fx:id="displayAreaNV" layoutX="311.0" layoutY="100.0" prefHeight="154.0" prefWidth="430.0">
+         <font>
+            <Font size="14.0" />
+         </font></TextArea>
+      <HBox layoutX="20.0" layoutY="47.0" prefHeight="40.0" prefWidth="266.0">
+         <children>
+            <TextField fx:id="searchInput" prefHeight="40.0" prefWidth="203.0" />
+            <Button fx:id="searchBtn" mnemonicParsing="false" onAction="#search" prefHeight="40.0" prefWidth="64.0" text="Tìm" />
+         </children>
+      </HBox>
+      <TextArea fx:id="displayAreaSK" layoutX="311.0" layoutY="266.0" prefHeight="177.0" prefWidth="430.0">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </TextArea>
+   </children>
+</AnchorPane>

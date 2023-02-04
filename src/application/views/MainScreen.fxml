@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.BorderPane?>
+<?import javafx.scene.layout.VBox?>
+
+<BorderPane fx:id="MainPane" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefWidth="1000.0" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.controllers.MainController">
+   <left>
+      <AnchorPane prefHeight="497.0" prefWidth="200.0" BorderPane.alignment="CENTER">
+         <children>
+            <VBox prefHeight="497.0" prefWidth="200.0" spacing="60.0">
+               <children>
+                  <Button fx:id="TrieuDaiBtn" mnemonicParsing="false" prefHeight="40.0" prefWidth="200.0" text="Triều Đại" />
+                  <Button fx:id="NhanVatBtn" mnemonicParsing="false" prefHeight="40.0" prefWidth="200.0" text="Nhân Vật" />
+                  <Button fx:id="SuKienBtn" mnemonicParsing="false" prefHeight="40.0" prefWidth="200.0" text="Sự Kiện" />
+                  <Button fx:id="LeHoiBtn" mnemonicParsing="false" prefHeight="40.0" prefWidth="200.0" text="Lễ Hội" />
+                  <Button fx:id="DiaDiemBtn" mnemonicParsing="false" onAction="#pressDiaDiemBtn" prefHeight="40.0" prefWidth="200.0" text="Địa Điểm" />
+               </children>
+               <padding>
+                  <Insets bottom="40.0" left="40.0" right="40.0" top="40.0" />
+               </padding>
+            </VBox>
+         </children>
+      </AnchorPane>
+   </left>
+</BorderPane>

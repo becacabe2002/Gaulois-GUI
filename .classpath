@@ -18,5 +18,6 @@
 	</classpathentry>
 	<classpathentry kind="lib" path="C:/Users/becac/OneDrive - Hanoi University of Science and Technology/Documents/Code/1_base/Java/packages/jsoup-1.15.3.jar"/>
 	<classpathentry kind="lib" path="C:/Users/becac/OneDrive - Hanoi University of Science and Technology/Documents/Code/1_base/Java/packages/json-simple-1.1.1.jar"/>
+	<classpathentry kind="lib" path="C:/Users/becac/OneDrive - Hanoi University of Science and Technology/Documents/Code/1_base/Java/packages/gson-2.10.1.jar"/>
 	<classpathentry kind="output" path="bin"/>
 </classpath>

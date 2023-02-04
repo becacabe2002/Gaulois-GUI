@@ -6,7 +6,7 @@ import javafx.collections.ObservableList;
 public class testConverter {
 	public static void main(String[] args) {
 		
-		System.out.print(JSonConverter.toArrListDiaDiem("C:\\Users\\becac\\OneDrive - Hanoi University of Science and Technology\\Documents\\A_HUST\\2022.1\\OOP\\Gaulois-GUI\\src\\jsonTest\\dataSource\\DiaDiem.json"));
+			System.out.println(PathFinder.getPathJson("LeHoi.json"));
 	}
 
 }

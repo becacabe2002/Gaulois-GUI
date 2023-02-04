@@ -12,7 +12,11 @@ import javafx.scene.layout.BorderPane;
 import javafx.scene.layout.Pane;
 
 public class MainController {
-	private static Pane view;
+	private static Pane viewDiaDiem;
+	private static Pane viewLeHoi;
+	private static Pane viewNhanVat;
+	private static Pane viewSuKien;
+	private static Pane viewTrieuDai;
     @FXML
     private Button DiaDiemBtn;
 
@@ -35,11 +39,34 @@ public class MainController {
     public void pressDiaDiemBtn(ActionEvent e) {
     	
 		try {
-			view = FXMLLoader.load(getClass().getResource("/application/views/DiaDiemDetail.fxml"));
+			viewDiaDiem = FXMLLoader.load(getClass().getResource("/application/views/DiaDiemDetail.fxml"));
 		} catch (IOException e1) {
 			// TODO Auto-generated catch block
 			e1.printStackTrace();
 		}
-    	MainPane.setCenter(view);
+    	MainPane.setCenter(viewDiaDiem);
+    }
+    
+    @FXML
+    public void pressLeHoiBtn(ActionEvent e) {
+    	
+		try {
+			viewLeHoi = FXMLLoader.load(getClass().getResource("/application/views/LeHoiDetail.fxml"));
+		} catch (IOException e1) {
+			// TODO Auto-generated catch block
+			e1.printStackTrace();
+		}
+    	MainPane.setCenter(viewLeHoi);
+    }
+    @FXML
+    public void pressNhanVatBtn(ActionEvent e) {
+    	
+		try {
+			viewNhanVat = FXMLLoader.load(getClass().getResource("/application/views/NhanVatDetail.fxml"));
+		} catch (IOException e1) {
+			// TODO Auto-generated catch block
+			e1.printStackTrace();
+		}
+    	MainPane.setCenter(viewNhanVat);
     }
 }

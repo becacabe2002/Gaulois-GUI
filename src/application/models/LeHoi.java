@@ -20,6 +20,10 @@ public class LeHoi extends HistoricalItem{
 		this.diaDiem = diaDiem;
 		this.nhanVat = nhanVat;
 	}
+	public LeHoi(String title) {
+		super();
+		this.title = title;
+	}
 	public String getTitle() {
 		return title;
 	}
@@ -57,5 +61,13 @@ public class LeHoi extends HistoricalItem{
 //	    return jsonObject;
 //	}
 
+	public String toString() {
+		StringBuffer nvBuffer = new StringBuffer();
+		for (String nv : nhanVat) {
+			nvBuffer.append("+" + nv +"\n");
+		}
+		String res = "<<" + title + ">>\n" + "- Thời gian diễn ra: " + date + "\n- Nơi diễn ra: " + diaDiem + "\n- Các nhân vật liên quan: \n" + nvBuffer.toString();
+		return res;
+	}
 	
 }

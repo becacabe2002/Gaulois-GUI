@@ -13,9 +13,9 @@
             <VBox prefHeight="497.0" prefWidth="200.0" spacing="60.0">
                <children>
                   <Button fx:id="TrieuDaiBtn" mnemonicParsing="false" prefHeight="40.0" prefWidth="200.0" text="Triều Đại" />
-                  <Button fx:id="NhanVatBtn" mnemonicParsing="false" prefHeight="40.0" prefWidth="200.0" text="Nhân Vật" />
+                  <Button fx:id="NhanVatBtn" mnemonicParsing="false" onAction="#pressNhanVatBtn" prefHeight="40.0" prefWidth="200.0" text="Nhân Vật" />
                   <Button fx:id="SuKienBtn" mnemonicParsing="false" prefHeight="40.0" prefWidth="200.0" text="Sự Kiện" />
-                  <Button fx:id="LeHoiBtn" mnemonicParsing="false" prefHeight="40.0" prefWidth="200.0" text="Lễ Hội" />
+                  <Button fx:id="LeHoiBtn" mnemonicParsing="false" onAction="#pressLeHoiBtn" prefHeight="40.0" prefWidth="200.0" text="Lễ Hội" />
                   <Button fx:id="DiaDiemBtn" mnemonicParsing="false" onAction="#pressDiaDiemBtn" prefHeight="40.0" prefWidth="200.0" text="Địa Điểm" />
                </children>
                <padding>

@@ -5,7 +5,7 @@ import java.util.ArrayList;
 import org.json.simple.JSONObject;
 
 public class NhanVat extends HistoricalItem {
-	private int id;
+//	private int id;
 	private String title;
 	private String dateOfBirth;
 	private String dateOfDeath;
@@ -103,6 +103,29 @@ public class NhanVat extends HistoricalItem {
 //	    return jsonObject;
 //	}
 
-
+	public String toStringDD(){
+		StringBuffer ddBuffer = new StringBuffer();
+		for (String dd : diaDiem) {
+			ddBuffer.append(dd + ", ");
+		}
+		String res = "Các địa điểm liên quan: " + ddBuffer.toString();
+		return res;
+	}
+	public String toStringSK(){
+		StringBuffer skBuffer = new StringBuffer();
+		for (String sk : suKien) {
+			skBuffer.append("+ " + sk + "\n");
+		}
+		String res = "- Các sự kiện liên quan: " + skBuffer.toString();
+		return res;
+	}
+	public String toStringNV(){
+		StringBuffer nvBuffer = new StringBuffer();
+		for (String nv : nhanVat) {
+			nvBuffer.append("+ " + nv + "\n");
+		}
+		String res = "- Các nhân vật liên quan: " + nvBuffer.toString();
+		return res;
+	}
 
 }

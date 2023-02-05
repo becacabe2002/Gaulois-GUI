@@ -1,27 +1,45 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
-<?import javafx.geometry.Insets?>
 <?import javafx.scene.control.Button?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
 <?import javafx.scene.layout.AnchorPane?>
 <?import javafx.scene.layout.BorderPane?>
-<?import javafx.scene.layout.VBox?>
 
 <BorderPane fx:id="MainPane" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefWidth="1000.0" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.controllers.MainController">
    <left>
       <AnchorPane prefHeight="497.0" prefWidth="200.0" BorderPane.alignment="CENTER">
          <children>
-            <VBox prefHeight="497.0" prefWidth="200.0" spacing="60.0">
-               <children>
-                  <Button fx:id="TrieuDaiBtn" mnemonicParsing="false" prefHeight="40.0" prefWidth="200.0" text="Triều Đại" />
-                  <Button fx:id="NhanVatBtn" mnemonicParsing="false" onAction="#pressNhanVatBtn" prefHeight="40.0" prefWidth="200.0" text="Nhân Vật" />
-                  <Button fx:id="SuKienBtn" mnemonicParsing="false" prefHeight="40.0" prefWidth="200.0" text="Sự Kiện" />
-                  <Button fx:id="LeHoiBtn" mnemonicParsing="false" onAction="#pressLeHoiBtn" prefHeight="40.0" prefWidth="200.0" text="Lễ Hội" />
-                  <Button fx:id="DiaDiemBtn" mnemonicParsing="false" onAction="#pressDiaDiemBtn" prefHeight="40.0" prefWidth="200.0" text="Địa Điểm" />
-               </children>
-               <padding>
-                  <Insets bottom="40.0" left="40.0" right="40.0" top="40.0" />
-               </padding>
-            </VBox>
+             <Button fx:id="TrieuDaiBtn" layoutX="81.0" layoutY="42.0" mnemonicParsing="false" onAction="#pressTrieuDaiBtn" prefHeight="38.0" prefWidth="84.0" text="Triều Đại" />
+                  <ImageView fitHeight="101.0" fitWidth="51.0" layoutX="15.0" layoutY="36.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../image/TrieuDai.png" />
+                     </image>
+                  </ImageView>
+                  <Button fx:id="NhanVatBtn" layoutX="81.0" layoutY="126.0" mnemonicParsing="false" onAction="#pressNhanVatBtn" prefHeight="40.0" prefWidth="84.0" text="Nhân Vật" />
+                  <ImageView fitHeight="49.0" fitWidth="49.0" layoutX="18.0" layoutY="122.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../image/NhanVat.png" />
+                     </image>
+                  </ImageView>
+                  <Button fx:id="SuKienBtn" layoutX="80.0" layoutY="223.0" mnemonicParsing="false" onAction="#pressSuKienBtn" prefHeight="40.0" prefWidth="86.0" text="Sự Kiện" />
+                  <ImageView fitHeight="102.0" fitWidth="52.0" layoutX="16.0" layoutY="217.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../image/SuKien.png" />
+                     </image>
+                  </ImageView>
+                  <Button fx:id="LeHoiBtn" layoutX="80.0" layoutY="407.0" mnemonicParsing="false" onAction="#pressLeHoiBtn" prefHeight="40.0" prefWidth="85.0" text="Lễ Hội" />
+                  <ImageView fitHeight="102.0" fitWidth="82.0" layoutY="392.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../image/Lehoi1.png" />
+                     </image>
+                  </ImageView>
+                  <Button fx:id="DiaDiemBtn" layoutX="81.0" layoutY="317.0" mnemonicParsing="false" onAction="#pressDiaDiemBtn" prefHeight="40.0" prefWidth="85.0" text="Địa Điểm" />
+                  <ImageView fitHeight="88.0" fitWidth="50.0" layoutX="17.0" layoutY="312.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../image/Diadiem.png" />
+                     </image>
+                  </ImageView>
          </children>
       </AnchorPane>
    </left>

@@ -58,6 +58,7 @@ public class MainController {
 		}
     	MainPane.setCenter(viewLeHoi);
     }
+    
     @FXML
     public void pressNhanVatBtn(ActionEvent e) {
     	
@@ -68,5 +69,29 @@ public class MainController {
 			e1.printStackTrace();
 		}
     	MainPane.setCenter(viewNhanVat);
+    }
+    
+    @FXML
+    public void pressSuKienBtn(ActionEvent e) {
+    	
+		try {
+			viewSuKien = FXMLLoader.load(getClass().getResource("/application/views/SuKienDetail.fxml"));
+		} catch (IOException e1) {
+			// TODO Auto-generated catch block
+			e1.printStackTrace();
+		}
+    	MainPane.setCenter(viewSuKien);
+    }
+    
+    @FXML
+    public void pressTrieuDaiBtn(ActionEvent e) {
+    	
+		try {
+			viewTrieuDai = FXMLLoader.load(getClass().getResource("/application/views/TrieuDaiDetail.fxml"));
+		} catch (IOException e1) {
+			// TODO Auto-generated catch block
+			e1.printStackTrace();
+		}
+    	MainPane.setCenter(viewTrieuDai);
     }
 }

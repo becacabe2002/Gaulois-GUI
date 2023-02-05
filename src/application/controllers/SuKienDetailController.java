@@ -1,4 +1,5 @@
 package application.controllers;
+
 import application.utils.JSonConverter;
 import application.utils.JsonConverter2;
 import application.utils.PathFinder;
@@ -26,33 +27,27 @@ import javafx.event.ActionEvent;
 
 
 
-public class NhanVatDetailController implements Initializable {
+public class SuKienDetailController implements Initializable {
 	
-	ObservableList<NhanVat> list = JsonConverter2.JsonToObListNhanVat(PathFinder.getPathJson("NhanVat.json"));
-	//ObservableList<DiaDiem> list = JSonConverter.toObListDiaDiem("C:\\Users\\becac\\OneDrive - Hanoi University of Science and Technology\\Documents\\A_HUST\\2022.1\\OOP\\Gaulois-GUI\\src\\jsonTest\\dataSource\\DiaDiem.json");
+	ObservableList<SuKien> list = JsonConverter2.JsonToObListSuKien(PathFinder.getPathJson("SuKien.json"));
+	
 	@FXML
     private Button detailBtn;
     
     @FXML
-    private TableColumn<NhanVat, String> idCol;
+    private TableColumn<SuKien, String> idCol;
     
     @FXML
-    private TableColumn<NhanVat, String> titleCol;
+    private TableColumn<SuKien, String> titleCol;
 
     @FXML
-    private TableView<NhanVat> table;
+    private TableView<SuKien> table;
     
     @FXML
     private Label nameLabel;
     
     @FXML
-    private TextArea displayAreaNV;
-    
-    @FXML
-    private TextArea displayAreaSK;
-    
-    @FXML
-    private TextField displayAreaDD;
+    private TextArea displayArea;
     
     @FXML
     private Button searchBtn;
@@ -69,11 +64,9 @@ public class NhanVatDetailController implements Initializable {
 	
 	@FXML
 	public void pressDetailBtn(ActionEvent e) {
-		NhanVat temp = table.getSelectionModel().getSelectedItem();
+		SuKien temp = table.getSelectionModel().getSelectedItem();
 		nameLabel.setText(temp.getTitle());
-		displayAreaDD.setText(temp.toStringDD());
-		displayAreaNV.setText(temp.toStringNV());
-		displayAreaSK.setText(temp.toStringSK());
+		displayArea.setText(temp.toString());
 //		System.out.println(temp.getTitle());
 
 	}
@@ -84,10 +77,10 @@ public class NhanVatDetailController implements Initializable {
 		table.setItems(filterList(list, searchInput.getText()));
 	}
 
-    private ObservableList<NhanVat> filterList(List<NhanVat> ls, String searchText){
-        List<NhanVat> filteredList = new ArrayList<>();
+    private ObservableList<SuKien> filterList(List<SuKien> ls, String searchText){
+        List<SuKien> filteredList = new ArrayList<>();
 
-        for (NhanVat d : ls){
+        for (SuKien d : ls){
             if(searchFindsOrder(d, searchText)){
                 filteredList.add(d);
             }
@@ -95,17 +88,15 @@ public class NhanVatDetailController implements Initializable {
         return FXCollections.observableList(filteredList);
     }
 
-    private boolean searchFindsOrder(NhanVat nhanvat, String searchText){
-        return (nhanvat.getTitle().toLowerCase().contains(searchText.toLowerCase()));
+    private boolean searchFindsOrder(SuKien sukien, String searchText){
+        return (sukien.getTitle().toLowerCase().contains(searchText.toLowerCase()));
 //                (order.getState().toLowerCase().contains(searchText)) ||
 //                Integer.valueOf(order.getId()).toString().equals(searchText);
     }
     
     public void clear() {
-		nameLabel.setText("NhanVat");
-		displayAreaNV.setText("");
-		displayAreaSK.setText("");
-		displayAreaDD.setText("");
+		nameLabel.setText("SuKien");
+		displayArea.setText("");
     }
     
 }

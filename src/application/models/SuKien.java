@@ -98,4 +98,23 @@ public class SuKien extends HistoricalItem{
 //		return null;
 //	}
 	
+	public String toString() {
+		StringBuffer nvBuffer = new StringBuffer();
+		StringBuffer ddBuffer = new StringBuffer();
+		
+		nvBuffer.append("\n- Các nhân vật liên quan đến sự kiện:\n");
+		for(String nv : nhanVat) {
+			nvBuffer.append("+ " + nv +"\n");
+		}
+		
+		ddBuffer.append("\n- Các địa điểm liên quan đến sự kiện:\n");
+		for(String dd : nhanVat) {
+			ddBuffer.append("+ " + dd +"\n");
+		}
+		
+		String res = "<< " + this.getTitle() + " >>" + nvBuffer.toString() + ddBuffer.toString();
+		
+		return res;
+	}
+	
 }

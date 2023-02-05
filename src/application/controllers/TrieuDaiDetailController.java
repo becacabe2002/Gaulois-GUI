@@ -26,21 +26,21 @@ import javafx.event.ActionEvent;
 
 
 
-public class NhanVatDetailController implements Initializable {
+public class TrieuDaiDetailController implements Initializable {
 	
-	ObservableList<NhanVat> list = JsonConverter2.JsonToObListNhanVat(PathFinder.getPathJson("NhanVat.json"));
+	ObservableList<TrieuDai> list = JsonConverter2.JsonToObListTrieuDai(PathFinder.getPathJson("TrieuDai.json"));
 	//ObservableList<DiaDiem> list = JSonConverter.toObListDiaDiem("C:\\Users\\becac\\OneDrive - Hanoi University of Science and Technology\\Documents\\A_HUST\\2022.1\\OOP\\Gaulois-GUI\\src\\jsonTest\\dataSource\\DiaDiem.json");
 	@FXML
     private Button detailBtn;
     
     @FXML
-    private TableColumn<NhanVat, String> idCol;
+    private TableColumn<TrieuDai, String> idCol;
     
     @FXML
-    private TableColumn<NhanVat, String> titleCol;
+    private TableColumn<TrieuDai, String> titleCol;
 
     @FXML
-    private TableView<NhanVat> table;
+    private TableView<TrieuDai> table;
     
     @FXML
     private Label nameLabel;
@@ -52,7 +52,7 @@ public class NhanVatDetailController implements Initializable {
     private TextArea displayAreaSK;
     
     @FXML
-    private TextField displayAreaDD;
+    private TextArea displayAreaDD;
     
     @FXML
     private Button searchBtn;
@@ -69,7 +69,7 @@ public class NhanVatDetailController implements Initializable {
 	
 	@FXML
 	public void pressDetailBtn(ActionEvent e) {
-		NhanVat temp = table.getSelectionModel().getSelectedItem();
+		TrieuDai temp = table.getSelectionModel().getSelectedItem();
 		nameLabel.setText(temp.getTitle());
 		displayAreaDD.setText(temp.toStringDD());
 		displayAreaNV.setText(temp.toStringNV());
@@ -84,10 +84,10 @@ public class NhanVatDetailController implements Initializable {
 		table.setItems(filterList(list, searchInput.getText()));
 	}
 
-    private ObservableList<NhanVat> filterList(List<NhanVat> ls, String searchText){
-        List<NhanVat> filteredList = new ArrayList<>();
+    private ObservableList<TrieuDai> filterList(List<TrieuDai> ls, String searchText){
+        List<TrieuDai> filteredList = new ArrayList<>();
 
-        for (NhanVat d : ls){
+        for (TrieuDai d : ls){
             if(searchFindsOrder(d, searchText)){
                 filteredList.add(d);
             }
@@ -95,14 +95,14 @@ public class NhanVatDetailController implements Initializable {
         return FXCollections.observableList(filteredList);
     }
 
-    private boolean searchFindsOrder(NhanVat nhanvat, String searchText){
-        return (nhanvat.getTitle().toLowerCase().contains(searchText.toLowerCase()));
+    private boolean searchFindsOrder(TrieuDai trieudai, String searchText){
+        return (trieudai.getTitle().toLowerCase().contains(searchText.toLowerCase()));
 //                (order.getState().toLowerCase().contains(searchText)) ||
 //                Integer.valueOf(order.getId()).toString().equals(searchText);
     }
     
     public void clear() {
-		nameLabel.setText("NhanVat");
+		nameLabel.setText("TrieuDai");
 		displayAreaNV.setText("");
 		displayAreaSK.setText("");
 		displayAreaDD.setText("");

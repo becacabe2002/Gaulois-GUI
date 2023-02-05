@@ -131,7 +131,7 @@ public class JsonConverter2{
 		}
 		ArrayList<String> dd = new ArrayList<String>();
 		JsonArray tempArray3 = Jo.getAsJsonArray("Historical_Places");
-		for(int i = 0; i < tempArray2.size(); i++) {
+		for(int i = 0; i < tempArray3.size(); i++) {
 			dd.add(tempArray3.get(i).getAsString());
 		}
 		TrieuDai res = new TrieuDai(title,beginYear,endYear,sk, nv, dd);

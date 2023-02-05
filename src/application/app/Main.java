@@ -8,7 +8,7 @@ import javafx.scene.Parent;
 import javafx.scene.Scene;
 import javafx.stage.Stage;
 
-public class testTable extends Application{
+public class Main extends Application{
 	@Override
 	public void start(Stage test) throws IOException{
 		FXMLLoader loader1 = new FXMLLoader();

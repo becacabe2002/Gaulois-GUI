@@ -116,5 +116,35 @@ public class TrieuDai extends HistoricalItem{
 //	    this.jsonFormat = jsonObject;
 //	    return jsonObject;
 //	}
+	
+	public String toStringNV() {
+		StringBuffer bufferNhanVat = new StringBuffer();
+		for (String nv: nhanVat) {
+			bufferNhanVat.append("+ "+ nv);
+			bufferNhanVat.append("\n");
+		}
+		String res ="-Nhân vật liên quan:\n" + bufferNhanVat.toString();
+		System.out.println(res);
+		return res;
+	}
+	public String toStringSK() {
+		StringBuffer bufferSuKien = new StringBuffer();
+		for (String sk: suKien) {
+			bufferSuKien.append("+ " + sk);
+			bufferSuKien.append("\n");
+		}
+		String res = "-Sự kiện liên quan:\n" + bufferSuKien.toString();
+		System.out.println(res);
+		return res;
+	}
+	
+	public String toStringDD(){
+		StringBuffer ddBuffer = new StringBuffer();
+		for (String dd : diaDiem) {
+			ddBuffer.append("+ "+ dd + "\n");
+		}
+		String res = "Các địa điểm liên quan: \n" + ddBuffer.toString();
+		return res;
+	}
 
 }

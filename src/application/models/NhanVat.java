@@ -116,7 +116,7 @@ public class NhanVat extends HistoricalItem {
 		for (String sk : suKien) {
 			skBuffer.append("+ " + sk + "\n");
 		}
-		String res = "- Các sự kiện liên quan: " + skBuffer.toString();
+		String res = "- Các sự kiện liên quan: \n" + skBuffer.toString();
 		return res;
 	}
 	public String toStringNV(){
@@ -124,7 +124,7 @@ public class NhanVat extends HistoricalItem {
 		for (String nv : nhanVat) {
 			nvBuffer.append("+ " + nv + "\n");
 		}
-		String res = "- Các nhân vật liên quan: " + nvBuffer.toString();
+		String res = "- Các nhân vật liên quan: \n" + nvBuffer.toString();
 		return res;
 	}
 

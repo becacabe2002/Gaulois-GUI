@@ -24,7 +24,7 @@
             <Font name="System Bold Italic" size="17.0" />
          </font>
       </Label>
-      <TextArea fx:id="displayAreaNV" layoutX="311.0" layoutY="100.0" prefHeight="154.0" prefWidth="430.0">
+      <TextArea fx:id="displayAreaNV" layoutX="310.0" layoutY="101.0" prefHeight="154.0" prefWidth="430.0">
          <font>
             <Font size="14.0" />
          </font></TextArea>

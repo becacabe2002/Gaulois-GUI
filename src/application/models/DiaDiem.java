@@ -61,17 +61,17 @@ public class DiaDiem extends HistoricalItem{
 	}
 	
 	
-//	@Override
-//	public JSONObject createJSON() {
-//		JSONObject jsonObject = new JSONObject();
-//	    //Inserting key-value pairs into the json object
-//	    jsonObject.put("ID", this.id);
-//	    jsonObject.put("Title", this.Title);
-//	    jsonObject.put("Historical_Events", this.suKien);
-//	    jsonObject.put("Historical_Characters", this.nhanVat);
-//	    this.jsonFormat = jsonObject;
-//	    return jsonObject;
-//	}
+	@Override
+	public JSONObject createJSON() {
+		JSONObject jsonObject = new JSONObject();
+	    //Inserting key-value pairs into the json object
+	    jsonObject.put("ID", this.id);
+	    jsonObject.put("Title", this.Title);
+	    jsonObject.put("Historical_Events", this.suKien);
+	    jsonObject.put("Historical_Characters", this.nhanVat);
+	    this.jsonFormat = jsonObject;
+	    return jsonObject;
+	}
 	
 	public String toStringNV() {
 		StringBuffer bufferNhanVat = new StringBuffer();

@@ -35,7 +35,7 @@ public abstract class HistoricalItem {
 	public void incrementNbItem() {
 		nbItem++;
 	}
-//	
-//	public abstract JSONObject createJSON();
-//	
+	
+	public abstract JSONObject createJSON();
+	
 }

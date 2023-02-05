@@ -92,11 +92,17 @@ public class SuKien extends HistoricalItem{
 		this.diaDiem = diaDiem;
 	}
 
-//	@Override
-//	public JSONObject createJSON() {
-//		// TODO Auto-generated method stub
-//		return null;
-//	}
+	@Override
+	public JSONObject createJSON() {
+		JSONObject jsonObject = new JSONObject();
+	    //Inserting key-value pairs into the json object
+	    jsonObject.put("ID", this.id);
+	    jsonObject.put("Title", this.title);
+	    jsonObject.put("Historical_Places", this.diaDiem);
+	    jsonObject.put("Historical_Characters", this.nhanVat);
+	    this.jsonFormat = jsonObject;
+	    return jsonObject;
+	}
 	
 	public String toString() {
 		StringBuffer nvBuffer = new StringBuffer();

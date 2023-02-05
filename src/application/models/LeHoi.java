@@ -49,17 +49,17 @@ public class LeHoi extends HistoricalItem{
 		nhanVat = historical_Characters;
 	}
 	
-//	@Override
-//	public JSONObject createJSON() {
-//		JSONObject jsonObject = new JSONObject();
-//	    //Inserting key-value pairs into the json object
-//	    jsonObject.put("ID", this.id);
-//	    jsonObject.put("Title", this.title);
-//	    jsonObject.put("Historical_Places", this.diaDiem);
-//	    jsonObject.put("Historical_Characters", this.nhanVat);
-//	    this.jsonFormat = jsonObject;
-//	    return jsonObject;
-//	}
+	@Override
+	public JSONObject createJSON() {
+		JSONObject jsonObject = new JSONObject();
+	    //Inserting key-value pairs into the json object
+	    jsonObject.put("ID", this.id);
+	    jsonObject.put("Title", this.title);
+	    jsonObject.put("Historical_Places", this.diaDiem);
+	    jsonObject.put("Historical_Characters", this.nhanVat);
+	    this.jsonFormat = jsonObject;
+	    return jsonObject;
+	}
 
 	public String toString() {
 		StringBuffer nvBuffer = new StringBuffer();

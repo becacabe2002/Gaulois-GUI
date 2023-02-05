@@ -101,21 +101,21 @@ public class TrieuDai extends HistoricalItem{
 		String url = "https://thuvienlichsu.com/thoi-ky";
 	}
 	
-//	@Override
-//	public JSONObject createJSON() {
-//		JSONObject jsonObject = new JSONObject();
-//	    //Inserting key-value pairs into the json object
-//	    jsonObject.put("ID", this.id);
-//	    jsonObject.put("Title", this.title);
-//	    jsonObject.put("Begin_Year", this.beginYear);
-//	    jsonObject.put("End_Year", this.endYear);
-//	    jsonObject.put("Historical_Events", this.suKien);
-//	    jsonObject.put("Historical_Places", this.diaDiem);
-//	    jsonObject.put("Historical_Characters", this.nhanVat);
-////	    jsonObject.put("Country", "India");
-//	    this.jsonFormat = jsonObject;
-//	    return jsonObject;
-//	}
+	@Override
+	public JSONObject createJSON() {
+		JSONObject jsonObject = new JSONObject();
+	    //Inserting key-value pairs into the json object
+	    jsonObject.put("ID", this.id);
+	    jsonObject.put("Title", this.title);
+	    jsonObject.put("Begin_Year", this.beginYear);
+	    jsonObject.put("End_Year", this.endYear);
+	    jsonObject.put("Historical_Events", this.suKien);
+	    jsonObject.put("Historical_Places", this.diaDiem);
+	    jsonObject.put("Historical_Characters", this.nhanVat);
+//	    jsonObject.put("Country", "India");
+	    this.jsonFormat = jsonObject;
+	    return jsonObject;
+	}
 	
 	public String toStringNV() {
 		StringBuffer bufferNhanVat = new StringBuffer();

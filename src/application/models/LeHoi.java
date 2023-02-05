@@ -5,7 +5,7 @@ import java.util.ArrayList;
 import org.json.simple.JSONObject;
 
 public class LeHoi extends HistoricalItem{
-	private int id;
+//	private int id;
 	private String title;
 	private String date;
 	private String diaDiem;

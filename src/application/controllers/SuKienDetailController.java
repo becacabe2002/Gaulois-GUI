@@ -27,12 +27,10 @@ import javafx.event.ActionEvent;
 
 
 
-public class SuKienDetailController implements Initializable {
+public class SuKienDetailController extends DetailController implements Initializable {
 	
 	ObservableList<SuKien> list = JsonConverter2.JsonToObListSuKien(PathFinder.getPathJson("SuKien.json"));
 	
-	@FXML
-    private Button detailBtn;
     
     @FXML
     private TableColumn<SuKien, String> idCol;
@@ -43,17 +41,10 @@ public class SuKienDetailController implements Initializable {
     @FXML
     private TableView<SuKien> table;
     
-    @FXML
-    private Label nameLabel;
     
     @FXML
     private TextArea displayArea;
     
-    @FXML
-    private Button searchBtn;
-
-    @FXML
-    private TextField searchInput;
 
 	@Override
 	public void initialize(URL arg0, ResourceBundle arg1) {
@@ -77,22 +68,6 @@ public class SuKienDetailController implements Initializable {
 		table.setItems(filterList(list, searchInput.getText()));
 	}
 
-    private ObservableList<SuKien> filterList(List<SuKien> ls, String searchText){
-        List<SuKien> filteredList = new ArrayList<>();
-
-        for (SuKien d : ls){
-            if(searchFindsOrder(d, searchText)){
-                filteredList.add(d);
-            }
-        }
-        return FXCollections.observableList(filteredList);
-    }
-
-    private boolean searchFindsOrder(SuKien sukien, String searchText){
-        return (sukien.getTitle().toLowerCase().contains(searchText.toLowerCase()));
-//                (order.getState().toLowerCase().contains(searchText)) ||
-//                Integer.valueOf(order.getId()).toString().equals(searchText);
-    }
     
     public void clear() {
 		nameLabel.setText("SuKien");

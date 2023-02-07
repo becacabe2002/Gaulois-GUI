@@ -5,7 +5,7 @@ import org.json.simple.JSONObject;
 
 
 public class TrieuDai extends HistoricalItem{
-	private String title;
+//	private String title;
 	private String beginYear;
 	private String endYear;
 	private ArrayList<String> suKien = new ArrayList<String>();
@@ -21,7 +21,7 @@ public class TrieuDai extends HistoricalItem{
 	public TrieuDai(String title, String beginYear, String endYear, ArrayList<String> suKien, ArrayList<String> nhanVat,
 			ArrayList<String> diaDiem) {
 		super();
-		this.title = title;
+		this.Title = title;
 		this.beginYear = beginYear;
 		this.endYear = endYear;
 		this.suKien = suKien;
@@ -33,7 +33,7 @@ public class TrieuDai extends HistoricalItem{
 
 	public TrieuDai(String title, String beginYear, String endYear, ArrayList<String> suKien) {
 		super();
-		this.title = title;
+		this.Title = title;
 		this.beginYear = beginYear;
 		this.endYear = endYear;
 		this.suKien = suKien;
@@ -41,27 +41,22 @@ public class TrieuDai extends HistoricalItem{
 	
 	public TrieuDai(String title, String beginYear, String endYear) {
 		super();
-		this.title = title;
+		this.Title = title;
 		this.beginYear = beginYear;
 		this.endYear = endYear;
 	}
 	
 	public TrieuDai(String title, String beginYear) {
 		super();
-		this.title = title;
+		this.Title = title;
 		this.beginYear = beginYear;
 	}
 	
 	public TrieuDai(String title) {
 		super();
-		this.title = title;
+		this.Title = title;
 	}
-	public String getTitle() {
-		return title;
-	}
-	public void setTitle(String title) {
-		this.title = title;
-	}
+
 	public String getBeginYear() {
 		return beginYear;
 	}
@@ -106,7 +101,7 @@ public class TrieuDai extends HistoricalItem{
 		JSONObject jsonObject = new JSONObject();
 	    //Inserting key-value pairs into the json object
 	    jsonObject.put("ID", this.id);
-	    jsonObject.put("Title", this.title);
+	    jsonObject.put("Title", this.Title);
 	    jsonObject.put("Begin_Year", this.beginYear);
 	    jsonObject.put("End_Year", this.endYear);
 	    jsonObject.put("Historical_Events", this.suKien);

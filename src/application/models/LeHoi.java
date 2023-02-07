@@ -6,7 +6,7 @@ import org.json.simple.JSONObject;
 
 public class LeHoi extends HistoricalItem{
 	private int id;
-	private String title;
+//	private String title;
 	private String date;
 	private String diaDiem;
 	private ArrayList<String> nhanVat;
@@ -15,21 +15,16 @@ public class LeHoi extends HistoricalItem{
 	
 	public LeHoi(String title, String date, String diaDiem, ArrayList<String> nhanVat) {
 		super();
-		this.title = title;
+		this.Title = title;
 		this.date = date;
 		this.diaDiem = diaDiem;
 		this.nhanVat = nhanVat;
 	}
 	public LeHoi(String title) {
 		super();
-		this.title = title;
+		this.Title = title;
 	}
-	public String getTitle() {
-		return title;
-	}
-	public void setTitle(String title) {
-		this.title = title;
-	}
+
 	public String getDate() {
 		return date;
 	}
@@ -54,7 +49,7 @@ public class LeHoi extends HistoricalItem{
 		JSONObject jsonObject = new JSONObject();
 	    //Inserting key-value pairs into the json object
 	    jsonObject.put("ID", this.id);
-	    jsonObject.put("Title", this.title);
+	    jsonObject.put("Title", this.Title);
 	    jsonObject.put("Historical_Places", this.diaDiem);
 	    jsonObject.put("Historical_Characters", this.nhanVat);
 	    this.jsonFormat = jsonObject;
@@ -66,7 +61,7 @@ public class LeHoi extends HistoricalItem{
 		for (String nv : nhanVat) {
 			nvBuffer.append("+" + nv +"\n");
 		}
-		String res = "<<" + title + ">>\n" + "- Thời gian diễn ra: " + date + "\n- Nơi diễn ra: " + diaDiem + "\n- Các nhân vật liên quan: \n" + nvBuffer.toString();
+		String res = "<<" + Title + ">>\n" + "- Thời gian diễn ra: " + date + "\n- Nơi diễn ra: " + diaDiem + "\n- Các nhân vật liên quan: \n" + nvBuffer.toString();
 		return res;
 	}
 	

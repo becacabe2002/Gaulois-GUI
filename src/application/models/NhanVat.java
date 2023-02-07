@@ -6,7 +6,7 @@ import org.json.simple.JSONObject;
 
 public class NhanVat extends HistoricalItem {
 //	private int id;
-	private String title;
+//	private String title;
 	private String dateOfBirth;
 	private String dateOfDeath;
 	private ArrayList<String> suKien = new ArrayList<String>();
@@ -16,7 +16,7 @@ public class NhanVat extends HistoricalItem {
 			ArrayList<String> diaDiem) {
 		super();
 		this.id = id;
-		this.title = title;
+		this.Title = title;
 		this.dateOfBirth = dateOfBirth;
 		this.dateOfDeath = dateOfDeath;
 		this.suKien = suKien;
@@ -30,13 +30,6 @@ public class NhanVat extends HistoricalItem {
 	}
 
 
-
-	public String getTitle() {
-		return title;
-	}
-	public void setTitle(String title) {
-		this.title = title;
-	}
 	public String getDateOfBirth() {
 		return dateOfBirth;
 	}
@@ -62,20 +55,6 @@ public class NhanVat extends HistoricalItem {
 		this.diaDiem = diaDiem;
 	}
 	
-	
-	
-	public int getId() {
-		return id;
-	}
-
-
-
-	public void setId(int id) {
-		this.id = id;
-	}
-
-
-
 	public ArrayList<String> getNhanVat() {
 		return nhanVat;
 	}
@@ -93,7 +72,7 @@ public class NhanVat extends HistoricalItem {
 		JSONObject jsonObject = new JSONObject();
 	    //Inserting key-value pairs into the json object
 	    jsonObject.put("ID", this.id);
-	    jsonObject.put("Title", this.title);
+	    jsonObject.put("Title", this.Title);
 	    jsonObject.put("Date_Of_Birth", this.dateOfBirth);
 	    jsonObject.put("Date_Of_Death", this.dateOfDeath);
 	    jsonObject.put("Historical_Events", this.suKien);

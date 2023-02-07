@@ -4,6 +4,7 @@ import org.json.simple.JSONObject;
 
 public abstract class HistoricalItem {
 	protected int id;
+	protected String Title;
 	private static int nbItem = 0;
 	protected JSONObject jsonFormat;
 
@@ -17,6 +18,16 @@ public abstract class HistoricalItem {
 
 	public void setId(int id) {
 		this.id = id;
+	}
+	
+	
+
+	public String getTitle() {
+		return Title;
+	}
+
+	public void setTitle(String title) {
+		Title = title;
 	}
 
 	public static int getNbItem() {

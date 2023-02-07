@@ -26,12 +26,11 @@ import javafx.event.ActionEvent;
 
 
 
-public class TrieuDaiDetailController implements Initializable {
+public class TrieuDaiDetailController extends DetailController implements Initializable {
 	
 	ObservableList<TrieuDai> list = JsonConverter2.JsonToObListTrieuDai(PathFinder.getPathJson("TrieuDai.json"));
 	//ObservableList<DiaDiem> list = JSonConverter.toObListDiaDiem("C:\\Users\\becac\\OneDrive - Hanoi University of Science and Technology\\Documents\\A_HUST\\2022.1\\OOP\\Gaulois-GUI\\src\\jsonTest\\dataSource\\DiaDiem.json");
-	@FXML
-    private Button detailBtn;
+
     
     @FXML
     private TableColumn<TrieuDai, String> idCol;
@@ -43,9 +42,6 @@ public class TrieuDaiDetailController implements Initializable {
     private TableView<TrieuDai> table;
     
     @FXML
-    private Label nameLabel;
-    
-    @FXML
     private TextArea displayAreaNV;
     
     @FXML
@@ -53,12 +49,7 @@ public class TrieuDaiDetailController implements Initializable {
     
     @FXML
     private TextArea displayAreaDD;
-    
-    @FXML
-    private Button searchBtn;
 
-    @FXML
-    private TextField searchInput;
 
 	@Override
 	public void initialize(URL arg0, ResourceBundle arg1) {
@@ -84,22 +75,6 @@ public class TrieuDaiDetailController implements Initializable {
 		table.setItems(filterList(list, searchInput.getText()));
 	}
 
-    private ObservableList<TrieuDai> filterList(List<TrieuDai> ls, String searchText){
-        List<TrieuDai> filteredList = new ArrayList<>();
-
-        for (TrieuDai d : ls){
-            if(searchFindsOrder(d, searchText)){
-                filteredList.add(d);
-            }
-        }
-        return FXCollections.observableList(filteredList);
-    }
-
-    private boolean searchFindsOrder(TrieuDai trieudai, String searchText){
-        return (trieudai.getTitle().toLowerCase().contains(searchText.toLowerCase()));
-//                (order.getState().toLowerCase().contains(searchText)) ||
-//                Integer.valueOf(order.getId()).toString().equals(searchText);
-    }
     
     public void clear() {
 		nameLabel.setText("TrieuDai");

@@ -6,7 +6,7 @@ import java.util.List;
 import org.json.simple.JSONObject;
 
 public class DiaDiem extends HistoricalItem{
-	private String Title;
+//	private String Title;
 	private ArrayList<String> nhanVat = new ArrayList<String>();
 	private ArrayList<String> suKien = new ArrayList<String>();
 	public DiaDiem( String title,ArrayList<String> nhanVat, ArrayList<String> suKien) {

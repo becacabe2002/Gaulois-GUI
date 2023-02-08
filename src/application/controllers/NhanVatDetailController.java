@@ -20,7 +20,8 @@ import javafx.event.ActionEvent;
 
 public class NhanVatDetailController extends DetailController implements Initializable {
 	
-	ObservableList<NhanVat> list = JsonConverter2.JsonToObListNhanVat(PathFinder.getPathJson("NhanVat.json"));
+	ObservableList<NhanVat> list = null;
+			//JsonConverter2.JsonToObListNhanVat(PathFinder.getPathJson("NhanVat.json"));
     
     @FXML
     private TableColumn<NhanVat, String> idCol;
@@ -46,6 +47,11 @@ public class NhanVatDetailController extends DetailController implements Initial
 	public void initialize(URL arg0, ResourceBundle arg1) {
 		idCol.setCellValueFactory(new PropertyValueFactory<>("id"));
 		titleCol.setCellValueFactory(new PropertyValueFactory<>("title"));
+		table.setItems(list);
+	}
+	
+	public void setList(ObservableList<NhanVat> inputList) {
+		list = inputList;
 		table.setItems(list);
 	}
 	

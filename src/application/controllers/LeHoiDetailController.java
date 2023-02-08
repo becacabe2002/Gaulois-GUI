@@ -20,7 +20,8 @@ import javafx.event.ActionEvent;
 
 public class LeHoiDetailController extends DetailController implements Initializable {
 	
-	ObservableList<LeHoi> list = JsonConverter2.JsonToObListLeHoi(PathFinder.getPathJson("LeHoi.json"));
+	ObservableList<LeHoi> list = null;
+			//JsonConverter2.JsonToObListLeHoi(PathFinder.getPathJson("LeHoi.json"));
     
     @FXML
     private TableColumn<LeHoi, String> idCol;
@@ -40,6 +41,10 @@ public class LeHoiDetailController extends DetailController implements Initializ
 	public void initialize(URL arg0, ResourceBundle arg1) {
 		idCol.setCellValueFactory(new PropertyValueFactory<>("id"));
 		titleCol.setCellValueFactory(new PropertyValueFactory<>("title"));
+	}
+	
+	public void setList(ObservableList<LeHoi> inputList) {
+		list = inputList;
 		table.setItems(list);
 	}
 	

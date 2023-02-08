@@ -16,7 +16,7 @@ public class Main extends Application{
 		Parent tableViewParent = loader1.load();
 		Scene tableView = new Scene(tableViewParent);
 		test.setScene(tableView);
-		test.setTitle("GUI");
+		test.setTitle("Historical Dictionary");
 		test.show();
 		
 	}

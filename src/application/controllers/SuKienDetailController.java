@@ -29,7 +29,8 @@ import javafx.event.ActionEvent;
 
 public class SuKienDetailController extends DetailController implements Initializable {
 	
-	ObservableList<SuKien> list = JsonConverter2.JsonToObListSuKien(PathFinder.getPathJson("SuKien.json"));
+	ObservableList<SuKien> list = null;
+	//JsonConverter2.JsonToObListSuKien(PathFinder.getPathJson("SuKien.json"));
 	
     
     @FXML
@@ -50,6 +51,11 @@ public class SuKienDetailController extends DetailController implements Initiali
 	public void initialize(URL arg0, ResourceBundle arg1) {
 		idCol.setCellValueFactory(new PropertyValueFactory<>("id"));
 		titleCol.setCellValueFactory(new PropertyValueFactory<>("title"));
+		table.setItems(list);
+	}
+	
+	public void setList(ObservableList<SuKien> inputList) {
+		list = inputList;
 		table.setItems(list);
 	}
 	

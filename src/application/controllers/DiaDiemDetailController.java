@@ -7,6 +7,7 @@ import java.net.URL;
 import java.util.ResourceBundle;
 
 import javafx.fxml.FXML;
+import javafx.scene.control.Button;
 import javafx.scene.control.TableColumn;
 import javafx.scene.control.TableView;
 import javafx.scene.control.TextArea;
@@ -19,10 +20,10 @@ import javafx.event.ActionEvent;
 
 public class DiaDiemDetailController extends DetailController implements Initializable{
 	
-	ObservableList<DiaDiem> list = JsonConverter2.JsonToObListDiaDiem(PathFinder.getPathJson("DiaDiem.json"));
-	//ObservableList<DiaDiem> list = JSonConverter.toObListDiaDiem("C:\\Users\\becac\\OneDrive - Hanoi University of Science and Technology\\Documents\\A_HUST\\2022.1\\OOP\\Gaulois-GUI\\src\\jsonTest\\dataSource\\DiaDiem.json");
-
-    
+	private ObservableList<DiaDiem> list = null;
+			//JsonConverter2.JsonToObListDiaDiem(PathFinder.getPathJson("DiaDiem.json"));
+	
+	
     @FXML
     private TableColumn<DiaDiem, String> idCol;
     
@@ -32,17 +33,21 @@ public class DiaDiemDetailController extends DetailController implements Initial
     @FXML
     private TableView<DiaDiem> table;
     
+    
     @FXML
     private TextArea displayAreaNV;
     
     @FXML
     private TextArea displayAreaSK;
     
-
 	@Override
 	public void initialize(URL arg0, ResourceBundle arg1) {
 		idCol.setCellValueFactory(new PropertyValueFactory<>("Id"));
 		titleCol.setCellValueFactory(new PropertyValueFactory<>("Title"));
+	}
+	
+	public void setList(ObservableList<DiaDiem> inputList) {
+		list = inputList;
 		table.setItems(list);
 	}
 	

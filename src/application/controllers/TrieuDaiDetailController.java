@@ -28,8 +28,8 @@ import javafx.event.ActionEvent;
 
 public class TrieuDaiDetailController extends DetailController implements Initializable {
 	
-	ObservableList<TrieuDai> list = JsonConverter2.JsonToObListTrieuDai(PathFinder.getPathJson("TrieuDai.json"));
-	//ObservableList<DiaDiem> list = JSonConverter.toObListDiaDiem("C:\\Users\\becac\\OneDrive - Hanoi University of Science and Technology\\Documents\\A_HUST\\2022.1\\OOP\\Gaulois-GUI\\src\\jsonTest\\dataSource\\DiaDiem.json");
+	ObservableList<TrieuDai> list = null;
+	//JsonConverter2.JsonToObListTrieuDai(PathFinder.getPathJson("TrieuDai.json"));
 
     
     @FXML
@@ -55,6 +55,11 @@ public class TrieuDaiDetailController extends DetailController implements Initia
 	public void initialize(URL arg0, ResourceBundle arg1) {
 		idCol.setCellValueFactory(new PropertyValueFactory<>("id"));
 		titleCol.setCellValueFactory(new PropertyValueFactory<>("title"));
+		table.setItems(list);
+	}
+	
+	public void setList(ObservableList<TrieuDai> inputList) {
+		list = inputList;
 		table.setItems(list);
 	}
 	

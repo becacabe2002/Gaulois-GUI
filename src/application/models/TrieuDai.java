@@ -119,7 +119,6 @@ public class TrieuDai extends HistoricalItem{
 			bufferNhanVat.append("\n");
 		}
 		String res ="-Nhân vật liên quan:\n" + bufferNhanVat.toString();
-		System.out.println(res);
 		return res;
 	}
 	public String toStringSK() {
@@ -129,7 +128,6 @@ public class TrieuDai extends HistoricalItem{
 			bufferSuKien.append("\n");
 		}
 		String res = "-Sự kiện liên quan:\n" + bufferSuKien.toString();
-		System.out.println(res);
 		return res;
 	}
 	

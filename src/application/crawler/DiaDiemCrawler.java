@@ -69,9 +69,10 @@ public class DiaDiemCrawler extends ThuVienLichSuCrawler{
 	}
 	public static void main(String[] args) throws IOException {
 		DiaDiemCrawler crawler = new DiaDiemCrawler();
-		
-		Elements cardElements = crawler.listElementCard(crawler.getOriginalUrl() + "/dia-diem", "divide-content");
 		Database db = new Database();
+		for(int pageIndex = 1;pageIndex<=10;pageIndex++) {
+		Elements cardElements = crawler.listElementCard(crawler.getOriginalUrl() + "/dia-diem?page="+ pageIndex, "divide-content");
+		System.out.println("page index: " + pageIndex);
 		cardElements.forEach((element) -> {
 			try {
 				Document documentSubPage = crawler.getSubPage(element);
@@ -83,6 +84,7 @@ public class DiaDiemCrawler extends ThuVienLichSuCrawler{
 				e.printStackTrace();
 			}
 		});
+		}
 		db.saveData("src/application/data/DiaDiem.json");
 		System.out.println("done");
 		//System.out.println(cardElements);

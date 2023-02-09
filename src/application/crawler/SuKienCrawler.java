@@ -70,19 +70,22 @@ public class SuKienCrawler extends ThuVienLichSuCrawler{
 	
 	public static void main(String[] args) throws IOException {
 		SuKienCrawler crawler = new SuKienCrawler();
-		Elements cardElements = crawler.listElementCard(crawler.getOriginalUrl() + "/su-kien", "divide-content");
 		Database db = new Database();
-		cardElements.forEach((element) -> {
-			try {
-				Document documentSubPage = crawler.getSubPage(element);
-				HistoricalItem data = crawler.getDataSuKienPage(documentSubPage);
-				db.addData(data.createJSON());
-				
-			} catch (IOException e) {
-				// TODO Auto-generated catch block
-				e.printStackTrace();
-			}
-		});
+		for(int pageIndex = 1;pageIndex<=19;pageIndex++) {
+			System.out.println("page index: " + pageIndex);
+			Elements cardElements = crawler.listElementCard(crawler.getOriginalUrl() + "/su-kien?page=" + pageIndex, "divide-content");
+			cardElements.forEach((element) -> {
+				try {
+					Document documentSubPage = crawler.getSubPage(element);
+					HistoricalItem data = crawler.getDataSuKienPage(documentSubPage);
+					db.addData(data.createJSON());
+					
+				} catch (IOException e) {
+					// TODO Auto-generated catch block
+					e.printStackTrace();
+				}
+			});
+		}
 		db.saveData("src/application/data/SuKien.json");
 		System.out.println("done");
 		//System.out.println(cardElements);

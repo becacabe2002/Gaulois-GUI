@@ -98,4 +98,849 @@
   "Title" : "Thuận Hóa",
   "ID" : 19,
   "Historical_Events" : [ "Khởi nghĩa Lam Sơn (1418 - 1427)", "Quân Lam Sơn giải phóng Tân Bình, Thuận Hóa và tiến quân ra bắc (1425 - 1426)", "Trận Tốt Động – Chúc Động (1426 - 1426)", "Chiến tranh Trịnh-Nguyễn, đất nước bị chia cắt thành hai vùng (1627 - 1672)", "Nguyễn Ánh lên ngôi, triều đình nhà Nguyễn thành lập (1802 - ?)" ]
+}, {
+  "Historical_Characters" : [ ],
+  "Title" : "Núi Chí Linh",
+  "ID" : 20,
+  "Historical_Events" : [ "Khởi nghĩa Lam Sơn (1418 - 1427)", "Quân Lam Sơn giải phóng Nghệ An (1424 - ?)" ]
+}, {
+  "Historical_Characters" : [ ],
+  "Title" : "Ải Chi Lăng",
+  "ID" : 21,
+  "Historical_Events" : [ "Khởi nghĩa Lam Sơn (1418 - 1427)", "Trận Chi Lăng – Xương Giang (1427 - 1427)", "Chiến tranh biên giới Việt - Trung 1979 (1979 - ?)" ]
+}, {
+  "Historical_Characters" : [ "Đoàn Kiểm Điểm (? - 1940)" ],
+  "Title" : "Lạng Sơn",
+  "ID" : 22,
+  "Historical_Events" : [ "Trận Chi Lăng – Xương Giang (1427 - 1427)", "Thành lập đội du kích Bắc Sơn (1941 - ?)", "1833-1835: Cuộc khởi nghĩa Nông Văn Vân chống Nguyễn (1833 - 1835)", "Khoảng 8000 năm trước: Có văn hóa Bắc Sơn (-8000 - ?)", "Khoảng hơn 4000 năm trước: Có văn hóa hậu kỳ đá mới (-4001 - ?)", "Chiến tranh biên giới Việt - Trung 1979 (1979 - ?)" ]
+}, {
+  "Historical_Characters" : [ ],
+  "Title" : "Tốt Động",
+  "ID" : 23,
+  "Historical_Events" : [ "Khởi nghĩa Lam Sơn (1418 - 1427)", "Trận Tốt Động – Chúc Động (1426 - 1426)" ]
+}, {
+  "Historical_Characters" : [ ],
+  "Title" : "Chúc Động",
+  "ID" : 24,
+  "Historical_Events" : [ "Trận Chi Lăng – Xương Giang (1427 - 1427)" ]
+}, {
+  "Historical_Characters" : [ ],
+  "Title" : "Đàng Trong",
+  "ID" : 25,
+  "Historical_Events" : [ "Khởi nghĩa nông dân Tây Sơn bùng nổ (1771 - ?)", "Nghĩa quân Tây Sơn lật đổ chính quyền chúa Nguyễn ở Đàng Trong (1777 - ?)", "Tây Sơn lật đổ chính quyền họ Trịnh (1786 - ?)" ]
+}, {
+  "Historical_Characters" : [ ],
+  "Title" : "Đàng Ngoài",
+  "ID" : 26,
+  "Historical_Events" : [ "Khởi nghĩa Hoàng Công Chất (1739 - 1769)", "Khởi nghĩa Nguyễn Danh Phương (1740 - 1751)", "Khởi nghĩa Nguyễn Hữu Cầu (1471 - 1751)", "Tây Sơn lật đổ chính quyền họ Trịnh (1786 - ?)", "Quân Thanh xâm lược nước ta (1788 - ?)" ]
+}, {
+  "Historical_Characters" : [ ],
+  "Title" : "Phú Xuân",
+  "ID" : 27,
+  "Historical_Events" : [ "Nghĩa quân Tây Sơn lật đổ chính quyền chúa Nguyễn ở Đàng Trong (1777 - ?)", "Tây Sơn lật đổ chính quyền họ Trịnh (1786 - ?)", "Nguyễn Ánh lên ngôi, triều đình nhà Nguyễn thành lập (1802 - ?)", "Nhà Nguyễn sắp xếp lại đơn vị hành chính trong cả nước (1831 - 1832)" ]
+}, {
+  "Historical_Characters" : [ "Tôn Thất Đàm (1864 - 1888)", "Đồng Khánh (1864 - 1889)", "Duy Tân (1900 - 1945)", "Hải Triều (1908 - 1954)", "Nguyễn Cư Trinh (1691 - 1725)" ],
+  "Title" : "Huế",
+  "ID" : 28,
+  "Historical_Events" : [ "Nghĩa quân Tây Sơn lật đổ chính quyền chúa Nguyễn ở Đàng Trong (1777 - ?)", "Thực dân Pháp mở đầu cuộc xâm lược Việt Nam (1858 - ?)", "Hiệp ước Patơnốt (1884 - ?)", "Tân Việt cách mạng Đảng ra đời (1928 - ?)", "Phong trào “Đón Gôđa” (1937 - ?)", "Pháp cử phái viên đến quân thứ Gia Định đưa ra bản dự thảo Hòa ước gồm 11 điều khoản (1860 - ?)", "Triều đình Huế cử phái đòan sang Pháp thương lượng chuộc lại ba tỉnh miền Đông Nam Kỳ (1863 - ?)", "Cuộc bạo động diễn ra ở kinh thành Huế để phản đối việc triều đình ký hòa ước với Pháp (1864 - ?)", "Triều đình ra lệnh cấm nhân dân ba tỉnh miền Tây Nam Kỳ chiêu mộ nghĩa binh chống Pháp (1865 - ?)", "Pháp đòi triều đình Huế giao cả ba tỉnh miền Tây Nam Kỳ cho Pháp (1866 - ?)", "Triều đình Huế gởi thư cho Soái phủ Pháp ở Gia Định xin Pháp trả lại 6 tỉnh Nam Kỳ (1870 - ?)", "Tôn Thất Thuyết đem quân tấn công tòa Khâm sứ Pháp ở Huế, mở đầu phong trào Cần Vương (1885 - ?)", "Thành lập Hội Văn hóa cứu quốc (1943 - ?)", "Nhật đảo chính lật đổ Pháp trên toàn Đông Dương (1945 - ?)" ]
+}, {
+  "Historical_Characters" : [ ],
+  "Title" : "Rạch Gầm - Xoài Mút",
+  "ID" : 29,
+  "Historical_Events" : [ "Chiến thắng Rạch Gầm – Xoài Mút (1785 - ?)" ]
+}, {
+  "Historical_Characters" : [ "Lê Quang Định (1760 - 1813)" ],
+  "Title" : "Thừa Thiên-Huế",
+  "ID" : 30,
+  "Historical_Events" : [ "Tổng tiến công và nổi dậy Mậu Thân (1968 - 1968)" ]
+}, {
+  "Historical_Characters" : [ "Phan Huỳnh Điểu (1924 - 2015)", "Trần Kim Thạch (1937 - 2009)" ],
+  "Title" : "Đà Nẵng",
+  "ID" : 31,
+  "Historical_Events" : [ "Thực dân Pháp mở đầu cuộc xâm lược Việt Nam (1858 - ?)", "Hiệp ước Nhâm Tuất (1862 - ?)", "Thực dân Pháp nổ súng xâm lược Việt Nam tại bán đảo Sơn Trà – Đà Nẵng (1858 - 1858)", "Pháp giành quyền bảo hộ Nam kỳ (1858 - 1862)", "Chiến dịch giải phóng Đà Nẵng (1975 - 1975)" ]
+}, {
+  "Historical_Characters" : [ ],
+  "Title" : "Bán đảo Sơn Trà",
+  "ID" : 32,
+  "Historical_Events" : [ "Thực dân Pháp mở đầu cuộc xâm lược Việt Nam (1858 - ?)", "Quân Pháp đánh chiếm tỉnh thành Gia Định (1859 - 1859)" ]
+}, {
+  "Historical_Characters" : [ ],
+  "Title" : "Định Tường",
+  "ID" : 33,
+  "Historical_Events" : [ "Hiệp ước Nhâm Tuất (1862 - ?)", "Triều đình Huế cử phái đòan sang Pháp thương lượng chuộc lại ba tỉnh miền Đông Nam Kỳ (1863 - ?)" ]
+}, {
+  "Historical_Characters" : [ ],
+  "Title" : "Mỹ Tho",
+  "ID" : 34,
+  "Historical_Events" : [ "Khởi nghĩa của Trương Định (1861 - ?)", "Pháp đánh chiếm Định Tường (1861 - 1861)" ]
+}, {
+  "Historical_Characters" : [ "Trịnh Hoài Đức (1765 - 1825)" ],
+  "Title" : "Biên Hòa",
+  "ID" : 35,
+  "Historical_Events" : [ "Hiệp ước Nhâm Tuất (1862 - ?)", "Triều đình Huế cử phái đòan sang Pháp thương lượng chuộc lại ba tỉnh miền Đông Nam Kỳ (1863 - ?)" ]
+}, {
+  "Historical_Characters" : [ "Trần Đại Nghĩa (1913 - 1997)", "Trương Duy Toản (1885 - 1957)", "Ngô Vĩnh Long (1944 - 2022)" ],
+  "Title" : "Vĩnh Long",
+  "ID" : 36,
+  "Historical_Events" : [ "Hiệp ước Nhâm Tuất (1862 - ?)", "Pháp chiếm thành Vĩnh Long (1862 - 1862)" ]
+}, {
+  "Historical_Characters" : [ ],
+  "Title" : "Quảng yên",
+  "ID" : 37,
+  "Historical_Events" : [ "Nhân dân làng xã ven Hải Phòng nổi dậy chống Pháp (1883 - 1883)" ]
+}, {
+  "Historical_Characters" : [ ],
+  "Title" : "Vũng Tàu",
+  "ID" : 38,
+  "Historical_Events" : [ ]
+}, {
+  "Historical_Characters" : [ "Sơn Nam (1926 - 2008)", "Nguyễn Thần Hiến (1857 - 1914)" ],
+  "Title" : "Kiên Giang",
+  "ID" : 39,
+  "Historical_Events" : [ "Cuộc nổi dậy chống nhà Nguyễn ở Hà Tiên (1840 - 1847)" ]
+}, {
+  "Historical_Characters" : [ ],
+  "Title" : "Phú Quốc",
+  "ID" : 40,
+  "Historical_Events" : [ ]
+}, {
+  "Historical_Characters" : [ ],
+  "Title" : "Yên Thế",
+  "ID" : 41,
+  "Historical_Events" : [ "Khởi nghĩa Yên Thế (1884 - 1913)" ]
+}, {
+  "Historical_Characters" : [ "Giáp Hải (1515 - 1585)", "Cô Giang (1906 - 1930)", "Cô Bắc (1906 - 1943)", "Nguyễn Xuân Oánh (1921 - 2003)", "Văn Tân (1943 - ?)" ],
+  "Title" : "Bắc Giang",
+  "ID" : 42,
+  "Historical_Events" : [ "Khoảng 4000 năm trước :Có văn hóa Phùng Nguyên, đồ đồng xuất hiện (-4000 - ?)", "Khoảng 3045 năm trước: Có văn hóa Gò Mun, thuộc Hậu kỳ thời đại đồng thau (-3045 - ?)" ]
+}, {
+  "Historical_Characters" : [ "Ỷ Lan (1044 - 1117)", "Huyền Quang (1254 - 1334)", "Nguyễn Giản Thanh (1482 - ?)", "Nguyễn Gia Thiều (1741 - 1798)", "Cao Lỗ (? - 179)" ],
+  "Title" : "Bắc Ninh",
+  "ID" : 43,
+  "Historical_Events" : [ "Hội nghị Ban thường vụ mở rộng của Trung ương Đảng Cộng sản Đông Dương và chỉ thị “Nhật - Pháp bắn nhau và hành động của chúng ta” (1945 - ?)", "Khoảng 4000 năm trước :Có văn hóa Phùng Nguyên, đồ đồng xuất hiện (-4000 - ?)", "Khoảng 3045 năm trước: Có văn hóa Gò Mun, thuộc Hậu kỳ thời đại đồng thau (-3045 - ?)" ]
+}, {
+  "Historical_Characters" : [ ],
+  "Title" : "Hương Khê",
+  "ID" : 44,
+  "Historical_Events" : [ "Khởi nghĩa Hương Khê (1885 - 1896)" ]
+}, {
+  "Historical_Characters" : [ ],
+  "Title" : "Bến Nhà Rồng",
+  "ID" : 45,
+  "Historical_Events" : [ ]
+}, {
+  "Historical_Characters" : [ "Hoàng Trung Thông (1925 - 1993)" ],
+  "Title" : "Yên Bái",
+  "ID" : 46,
+  "Historical_Events" : [ "Khởi nghĩa Yên Bái (1930 - ?)", "Khoảng 10 vạn năm trước: Có sự sinh sống của Người khôn ngoan đầu tiên ở Việt Nam (-100000 - ?)" ]
+}, {
+  "Historical_Characters" : [ "Đào Sư Tích (1348 - 1396)", "Nguyễn Hiền (1234 - ?)", "Nguyễn Bính (1918 - 1966)", "Bùi Viện (1839 - 1878)", "Tú Xương (1870 - 1907)" ],
+  "Title" : "Nam Định",
+  "ID" : 47,
+  "Historical_Events" : [ "2500 công nhân nhà máy sợi Nam Định bãi công (1925 - ?)" ]
+}, {
+  "Historical_Characters" : [ ],
+  "Title" : "Thanh Chương",
+  "ID" : 48,
+  "Historical_Events" : [ ]
+}, {
+  "Historical_Characters" : [ ],
+  "Title" : "Nam Đàn",
+  "ID" : 49,
+  "Historical_Events" : [ "Ngày Sinh Chủ Tịch Hồ Chí Minh (1890 - ?)" ]
+}, {
+  "Historical_Characters" : [ ],
+  "Title" : "Dạ Trạch",
+  "ID" : 50,
+  "Historical_Events" : [ "Triệu Quang Phục đóng quân ở đầm Dạ Trạch (547 - ?)" ]
+}, {
+  "Historical_Characters" : [ ],
+  "Title" : "Nhật Nam",
+  "ID" : 51,
+  "Historical_Events" : [ "Nhà Hán đánh bại nhà Triệu, đô hộ Âu Lạc (-111 - ?)", "Hơn 2000 dân Tượng Lâm quận Nhật Nam khởi nghĩa chống chính quyền đô hộ nhà Hán (100 - ?)", "Khởi nghĩa ở quận Nhật Nam (137 - ?)", "Nhà nước Lâm Ấp được thành lập (190 - ?)" ]
+}, {
+  "Historical_Characters" : [ ],
+  "Title" : "Giao Chỉ",
+  "ID" : 52,
+  "Historical_Events" : [ "Kháng chiến của nhân dân ta chống quân xâm lược Hán (42 - 43)", "Nhà Hán đánh bại nhà Triệu, đô hộ Âu Lạc (-111 - ?)", "Nhà Hán lập Giao Chỉ Bộ (-106 - ?)", "Tô Định làm Thái thú Giao Chỉ (34 - ?)", "Nhà Hán cử Mã Viện cùng với Đoàn Chí đem quân sang đánh Trưng Vương (-41 - ?)", "Mã Viện đánh vào Giao Chỉ (42 - ?)", "Khởi nghĩa ở quận Nhật Nam (137 - ?)", "Nhà Hán suy yếu Nho giáo bắt đầu du nhập vào nước ta (187 - ?)", "Nhà Hán đặt Giao Chỉ thành Giao Châu (203 - ?)", "Nhà Lương chiếm lại Giao Châu, Lý Nam Đế về giữ thành Gia Ninh (545 - ?)" ]
+}, {
+  "Historical_Characters" : [ ],
+  "Title" : "Cửu Chân",
+  "ID" : 53,
+  "Historical_Events" : [ "Nhà Hán đánh bại nhà Triệu, đô hộ Âu Lạc (-111 - ?)", "Khởi nghĩa ở quận Nhật Nam (137 - ?)", "Lý Nam Đế giao binh quyền cho Triệu Quang Phục (546 - ?)", "Hai Bà Trưng chống cự lại với quân nhà Hán và tử trận (943 - ?)" ]
+}, {
+  "Historical_Characters" : [ "Lý Hồng Thanh (1916 - 1941)", "Tạ Thu Thâu (1906 - 1945)" ],
+  "Title" : "Đồng Tháp",
+  "ID" : 54,
+  "Historical_Events" : [ ]
+}, {
+  "Historical_Characters" : [ "Lê Quý Đôn (1726 - 1784)", "Phạm Thế Hiển (1803 - 1861)", "Hoàng Văn Thái (1915 - 1986)", "Trần Đức Thịnh (1901 - 1971)", "Trịnh Tam Tỉnh (1907 - 1992)" ],
+  "Title" : "Thái Bình",
+  "ID" : 55,
+  "Historical_Events" : [ "Kỷ niệm ngày Quốc tế lao động trên cả nước (1930 - ?)" ]
+}, {
+  "Historical_Characters" : [ ],
+  "Title" : "Chợ Lớn",
+  "ID" : 56,
+  "Historical_Events" : [ "Kỷ niệm ngày Quốc tế lao động trên cả nước (1930 - ?)", "Thực dân Pháp đánh chiếm Sài Gòn Nhân dân Nam Bộ đứng lên chống thực dân Pháp trở lại xâm lược (1945 - ?)" ]
+}, {
+  "Historical_Characters" : [ ],
+  "Title" : "Liên bang Đông Dương",
+  "ID" : 57,
+  "Historical_Events" : [ "Pháp ký hiệp ước thỏa thuận cho phát xít Nhật sử dụng lãnh thổ Bắc Kỳ vào những mục đích quân sự Nhật đưa quân vào Đông Dương (1940 - ?)", "Nhật đảo chính lật đổ Pháp trên toàn Đông Dương (1945 - ?)", "Hội nghị Giơnevơ về Đông Dương kết thúc thắng lợi (1954 - ?)" ]
+}, {
+  "Historical_Characters" : [ ],
+  "Title" : "Tượng Lâm",
+  "ID" : 58,
+  "Historical_Events" : [ "Hơn 2000 dân Tượng Lâm quận Nhật Nam khởi nghĩa chống chính quyền đô hộ nhà Hán (100 - ?)", "Nhà nước Lâm Ấp được thành lập (190 - ?)" ]
+}, {
+  "Historical_Characters" : [ ],
+  "Title" : "Hà Tiên",
+  "ID" : 59,
+  "Historical_Events" : [ ]
+}, {
+  "Historical_Characters" : [ ],
+  "Title" : "Bắc Sơn",
+  "ID" : 60,
+  "Historical_Events" : [ "Khởi nghĩa Bắc Sơn (1940 - ?)", "Thành lập đội du kích Bắc Sơn (1941 - ?)" ]
+}, {
+  "Historical_Characters" : [ ],
+  "Title" : "Pác Bó",
+  "ID" : 61,
+  "Historical_Events" : [ "Lãnh tụ Nguyễn Ái Quốc trờ về nước, đặt căn cứ tại Pác Bó (1941 - ?)", "Mặt trận Việt Minh được thành lập (1941 - ?)" ]
+}, {
+  "Historical_Characters" : [ "Kim Đồng (1928 - 1943)" ],
+  "Title" : "Cao Bằng",
+  "ID" : 62,
+  "Historical_Events" : [ "Lãnh tụ Nguyễn Ái Quốc trờ về nước, đặt căn cứ tại Pác Bó (1941 - ?)", "Mặt trận Việt Minh được thành lập (1941 - ?)", "Đội Việt Nam tuyên truyền giải phóng quân thành lập (1944 - ?)", "Chiến thắng Phay Khắt và Nà Ngần của Đội Việt Nam tuyên truyền giải phóng quân (1944 - 1944)", "1833-1835: Cuộc khởi nghĩa Nông Văn Vân chống Nguyễn (1833 - 1835)", "Chiến tranh biên giới Việt - Trung 1979 (1979 - ?)" ]
+}, {
+  "Historical_Characters" : [ ],
+  "Title" : "Ba Tơ",
+  "ID" : 63,
+  "Historical_Events" : [ "Khởi nghĩa Ba Tơ (1945 - ?)" ]
+}, {
+  "Historical_Characters" : [ "Trương Định (1820 - 1864)", "Tế Hanh (1921 - 2009)", "Ngô Thị Thuận (1939 - ?)", "Trần Nguyên Mẫn (1915 - 1950)", "Trịnh Thị Ánh Tuyết (1870 - 1887)" ],
+  "Title" : "Quảng Ngãi",
+  "ID" : 64,
+  "Historical_Events" : [ "Khởi nghĩa Ba Tơ (1945 - ?)", "Cuộc nổi dậy chống nhà Nguyễn ở Đá Vách Quảng Ngãi (1803 - 1883)" ]
+}, {
+  "Historical_Characters" : [ ],
+  "Title" : "Việt Bắc",
+  "ID" : 65,
+  "Historical_Events" : [ "Khu giải phóng Việt Bắc được thành lập trở thành căn cứ địa chính của cách mạng (1945 - ?)", "Chiến dịch Việt Bắc (1947 - 1947)", "Ngày truyền thống sinh viên học sinh Việt Nam (1950 - ?)" ]
+}, {
+  "Historical_Characters" : [ ],
+  "Title" : "Cầu Giấy",
+  "ID" : 66,
+  "Historical_Events" : [ "Trận Cầu Giấy (Hà Nội) PGacniê bị giết (1873 - ?)" ]
+}, {
+  "Historical_Characters" : [ ],
+  "Title" : "Chiến khu Tân Trào",
+  "ID" : 67,
+  "Historical_Events" : [ "Hội nghị Toàn quốc của Đảng Cộng sản Đông Dương họp tại Tân Trào (1945 - 1945)", "Tổng khởi nghĩa tháng 8 năm 1945 (1945 - ?)" ]
+}, {
+  "Historical_Characters" : [ ],
+  "Title" : "Tuyên Quang",
+  "ID" : 68,
+  "Historical_Events" : [ "Đại hội đại biểu toàn quốc lần thứ II của Đảng Cộng sản Đông Dương (1951 - 1951)", "1833-1835: Cuộc khởi nghĩa Nông Văn Vân chống Nguyễn (1833 - 1835)" ]
+}, {
+  "Historical_Characters" : [ ],
+  "Title" : "Tây Bắc",
+  "ID" : 69,
+  "Historical_Events" : [ "Nhà nước Văn Lang ra đời (-700 - ?)", "Chiến dịch Tây Bắc (1952 - 1952)" ]
+}, {
+  "Historical_Characters" : [ ],
+  "Title" : "Tây Nguyên",
+  "ID" : 70,
+  "Historical_Events" : [ "Chiến dịch Bắc Tây Nguyên (1954 - 1954)" ]
+}, {
+  "Historical_Characters" : [ ],
+  "Title" : "Điện Biên Phủ",
+  "ID" : 71,
+  "Historical_Events" : [ ]
+}, {
+  "Historical_Characters" : [ ],
+  "Title" : "Di tích Him Lam (Beatrice)",
+  "ID" : 72,
+  "Historical_Events" : [ "Trận Him Lam (1954 - ?)" ]
+}, {
+  "Historical_Characters" : [ ],
+  "Title" : "Di tích đồi Độc lập",
+  "ID" : 73,
+  "Historical_Events" : [ "Trận đồi Độc Lập (1954 - 1954)" ]
+}, {
+  "Historical_Characters" : [ ],
+  "Title" : "Đồi A1",
+  "ID" : 74,
+  "Historical_Events" : [ "Trận đồi A1 (1954 - 1954)" ]
+}, {
+  "Historical_Characters" : [ ],
+  "Title" : "Đồi C1",
+  "ID" : 75,
+  "Historical_Events" : [ "Trận đồi C1 (1954 - 1954)" ]
+}, {
+  "Historical_Characters" : [ ],
+  "Title" : "Bản kéo",
+  "ID" : 76,
+  "Historical_Events" : [ "Trận Bản Kéo (1954 - ?)" ]
+}, {
+  "Historical_Characters" : [ ],
+  "Title" : "Hồng Cúm",
+  "ID" : 77,
+  "Historical_Events" : [ "Trận Hồng Cúm (1954 - 1954)" ]
+}, {
+  "Historical_Characters" : [ ],
+  "Title" : "đồng bằng sông Cửu Long",
+  "ID" : 78,
+  "Historical_Events" : [ "Chiến dịch đồng bằng sông Cửu Long (1972 - 1972)" ]
+}, {
+  "Historical_Characters" : [ ],
+  "Title" : "Đồng Bằng Sông Hồng",
+  "ID" : 79,
+  "Historical_Events" : [ ]
+}, {
+  "Historical_Characters" : [ ],
+  "Title" : "Đông Bắc",
+  "ID" : 80,
+  "Historical_Events" : [ "Nhà nước Văn Lang ra đời (-700 - ?)" ]
+}, {
+  "Historical_Characters" : [ ],
+  "Title" : "Đông Nam Bộ",
+  "ID" : 81,
+  "Historical_Events" : [ "Chiến dịch Nguyễn Huệ (1972 - 1973)" ]
+}, {
+  "Historical_Characters" : [ ],
+  "Title" : "Bắc Trung Bộ",
+  "ID" : 82,
+  "Historical_Events" : [ ]
+}, {
+  "Historical_Characters" : [ ],
+  "Title" : "Nam Trung Bộ",
+  "ID" : 83,
+  "Historical_Events" : [ "Khoảng 2500 năm trước - Có văn hóa Sa Huỳnh thuộc sơ kỳ đồ sắt (-2500 - ?)" ]
+}, {
+  "Historical_Characters" : [ "Hoàng Hiệp (1931 - 2013)", "Phan Nhân (1930 - 2015)", "Nguyễn Quang Sáng (1932 - 2014)", "Trương Khánh Châu (1934 - 2019)" ],
+  "Title" : "An Giang",
+  "ID" : 84,
+  "Historical_Events" : [ "Khởi nghĩa Bảy Thưa chống Pháp ở An Giang (1867 - 1873)" ]
+}, {
+  "Historical_Characters" : [ "Trần Trinh Huy (1900 - 1974)", "Trần Văn Sớm (1918 - 2004)", "Lương Thế Trân (1911 - 1942)", "Phan Ngọc Sến (1919 - 1993)" ],
+  "Title" : "Bạc Liêu",
+  "ID" : 85,
+  "Historical_Events" : [ "Cuộc nổi dậy chống nhà Nguyễn ở Hà Tiên (1840 - 1847)" ]
+}, {
+  "Historical_Characters" : [ "Nguyễn Thị Định (1920 - 1992)", "Phan Văn Trị (1830 - 1910)", "Lê Anh Xuân (1940 - 1968)" ],
+  "Title" : "Bến Tre",
+  "ID" : 86,
+  "Historical_Events" : [ ]
+}, {
+  "Historical_Characters" : [ "Lưu Hữu Phước (1921 - 1989)", "Nguyễn Ngọc Thơ (1908 - 1976)", "Ba Cụt (1923 - 1956)", "Mai Văn Bộ (1918 - 2002)", "Phạm Hoàng Hộ (1929 - 2017)" ],
+  "Title" : "Cần Thơ",
+  "ID" : 87,
+  "Historical_Events" : [ ]
+}, {
+  "Historical_Characters" : [ "Nguyễn Ngọc Tư (1976 - ?)", "Trần Văn Phán (1910 - 1942)", "Quách Văn Phẩm (1920 - 1941)" ],
+  "Title" : "Cà Mau",
+  "ID" : 88,
+  "Historical_Events" : [ "Cuộc nổi dậy chống nhà Nguyễn ở Hà Tiên (1840 - 1847)" ]
+}, {
+  "Historical_Characters" : [ ],
+  "Title" : "Hậu Giang",
+  "ID" : 89,
+  "Historical_Events" : [ ]
+}, {
+  "Historical_Characters" : [ "Lương Định Của (1920 - 1975)", "Trần Hồng Quân (1937 - ?)" ],
+  "Title" : "Sóc Trăng",
+  "ID" : 90,
+  "Historical_Events" : [ "Cuộc nổi dậy chống nhà Nguyễn ở Ba Xuyên (1841 - 1842)" ]
+}, {
+  "Historical_Characters" : [ "Nguyễn Hữu Huân (1813 - 1875)", "Âu Dương Lân (? - 1875)", "Nguyễn Sáng (1923 - 1988)", "Trần Văn Khê (1921 - 2015)", "Dương Văn Minh (1916 - 2001)" ],
+  "Title" : "Tiền Giang",
+  "ID" : 91,
+  "Historical_Events" : [ ]
+}, {
+  "Historical_Characters" : [ "Trúc Phương (1933 - 1995)", "Nguyễn Khánh (1927 - 1923)", "Phạm Thái Bường (1915 - 1974)", "Dương Quang Đông (1902 - 2003)" ],
+  "Title" : "Trà Vinh",
+  "ID" : 92,
+  "Historical_Events" : [ ]
+}, {
+  "Historical_Characters" : [ "Văn Cao (1923 - 1995)", "Hoài Linh (1920 - 1995)", "Nguyễn Hữu Tuệ (1871 - 1938)", "Nguyễn Văn Ngọ (1906 - 1954)", "Bùi Ngọc Tấn (1934 - 2014)" ],
+  "Title" : "Hải Phòng",
+  "ID" : 93,
+  "Historical_Events" : [ "Khoảng 4000 năm trước :Có văn hóa Phùng Nguyên, đồ đồng xuất hiện (-4000 - ?)" ]
+}, {
+  "Historical_Characters" : [ "Đoàn Thị Điểm (1705 - 1748)", "Tô Hiệu (1912 - 1944)", "Nguyễn Công Hoan (1903 - 1977)", "Phạm Ngũ Lão (1255 - 1320)", "Tô Ngọc Vân (1906 - 1954)" ],
+  "Title" : "Hưng Yên",
+  "ID" : 94,
+  "Historical_Events" : [ ]
+}, {
+  "Historical_Characters" : [ "Nam Cao (1917 - 1951)", "Trần Văn Đỗ (1903 - 1990)", "Lê Hồ (? - 1945)", "Lương Khánh Thiện (1903 - 1941)", "Nguyễn Hữu Tiến (1901 - 1941)" ],
+  "Title" : "Hà Nam",
+  "ID" : 95,
+  "Historical_Events" : [ ]
+}, {
+  "Historical_Characters" : [ ],
+  "Title" : "Hà Tây",
+  "ID" : 96,
+  "Historical_Events" : [ ]
+}, {
+  "Historical_Characters" : [ "Nguyễn Minh Không (1065 - 1141)", "Trần Đại Quang (1956 - 2018)", "Tạ Uyên (1898 - 1940)", "Lê Toàn Thư (1921 - 2001)", "Ninh Tốn (1744 - 1795)" ],
+  "Title" : "Ninh Bình",
+  "ID" : 97,
+  "Historical_Events" : [ "Khoảng 10 vạn năm trước: Có sự sinh sống của Người khôn ngoan đầu tiên ở Việt Nam (-100000 - ?)" ]
+}, {
+  "Historical_Characters" : [ "Bát Nàn Công Chúa (17 - 43)", "Hữu Thỉnh (1942 - ?)", "Đội Cấn (1881 - 1918)", "Vũ Hồng Khanh (1898 - 1993)" ],
+  "Title" : "Vĩnh Phúc",
+  "ID" : 98,
+  "Historical_Events" : [ "Khoảng 4000 năm trước :Có văn hóa Phùng Nguyên, đồ đồng xuất hiện (-4000 - ?)", "Cuộc nổi dậy chống nhà Nguyễn của Ba Nhàn và Tiền Bột (1833 - 1843)" ]
+}, {
+  "Historical_Characters" : [ "Nông Đức Mạnh (1940 - ?)" ],
+  "Title" : "Bắc Kạn",
+  "ID" : 99,
+  "Historical_Events" : [ ]
+}, {
+  "Historical_Characters" : [ ],
+  "Title" : "Hà Giang",
+  "ID" : 100,
+  "Historical_Events" : [ ]
+}, {
+  "Historical_Characters" : [ "Lưu Quang Vũ (1948 - 1988)" ],
+  "Title" : "Phú Thọ",
+  "ID" : 101,
+  "Historical_Events" : [ "Khoảng 2 vạn 1 nghìn năm trước: Có văn hóa Sơn Vi (-21000 - ?)", "Khoảng 4000 năm trước :Có văn hóa Phùng Nguyên, đồ đồng xuất hiện (-4000 - ?)", "Khoảng 3045 năm trước :Có văn hóa Gò Mun, thuộc Hậu kỳ thời đại đồng thau (-3070 - ?)", "Cuộc nổi dậy chống nhà Nguyễn của Ba Nhàn và Tiền Bột (1833 - 1843)" ]
+}, {
+  "Historical_Characters" : [ "Nguyễn Trí Hiếu (1947 - ?)", "Đặng Thân (1964 - ?)" ],
+  "Title" : "Quảng Ninh",
+  "ID" : 102,
+  "Historical_Events" : [ ]
+}, {
+  "Historical_Characters" : [ ],
+  "Title" : "Thái Nguyên",
+  "ID" : 103,
+  "Historical_Events" : [ "1833-1835: Cuộc khởi nghĩa Nông Văn Vân chống Nguyễn (1833 - 1835)", "Khoảng 2 vạn 3 nghìn năm trước: Có dấu tích hậu kỳ đồ đá cũ (-23000 - ?)" ]
+}, {
+  "Historical_Characters" : [ ],
+  "Title" : "Đồng Nai",
+  "ID" : 104,
+  "Historical_Events" : [ ]
+}, {
+  "Historical_Characters" : [ ],
+  "Title" : "Bà Rịa - Vung Tàu",
+  "ID" : 105,
+  "Historical_Events" : [ "Chiến thắng Bình Giã (1964 - 1965)" ]
+}, {
+  "Historical_Characters" : [ "Lý Lan (1957 - ?)", "Phan Văn Hùm (1902 - 1946)", "Hồ Văn Cống (1912 - 1943)" ],
+  "Title" : "Bình Duong",
+  "ID" : 106,
+  "Historical_Events" : [ ]
+}, {
+  "Historical_Characters" : [ ],
+  "Title" : "Bình Phuớc",
+  "ID" : 107,
+  "Historical_Events" : [ ]
+}, {
+  "Historical_Characters" : [ ],
+  "Title" : "Bình Thuận",
+  "ID" : 108,
+  "Historical_Events" : [ ]
+}, {
+  "Historical_Characters" : [ ],
+  "Title" : "Ninh Thuận",
+  "ID" : 109,
+  "Historical_Events" : [ ]
+}, {
+  "Historical_Characters" : [ "Xuân Hồng (1928 - 1996)", "Xuân Hồng (1928 - 1996)", "Lê Văn Thới (1917 - 1983)" ],
+  "Title" : "Tây Ninh",
+  "ID" : 110,
+  "Historical_Events" : [ ]
+}, {
+  "Historical_Characters" : [ "Nguyễn Khuyến (1835 - 1909)", "Nguyễn Chấn (1914 - 1985)" ],
+  "Title" : "Phú Yên",
+  "ID" : 111,
+  "Historical_Events" : [ ]
+}, {
+  "Historical_Characters" : [ "Nguyễn Văn Trỗi (1940 - 1964)", "Thạch Lam (1909 - 1942)", "Huỳnh Thúc Kháng (1876 - 1947)", "Nguyễn Thị Bình", "Nguyễn Nhật Ánh (1955 - ?)" ],
+  "Title" : "Quảng Nam",
+  "ID" : 112,
+  "Historical_Events" : [ "Trận đánh Cẩm Sa giữa quân Trịnh và quân Tây Sơn (1775 - ?)" ]
+}, {
+  "Historical_Characters" : [ ],
+  "Title" : "Điện Biên",
+  "ID" : 113,
+  "Historical_Events" : [ ]
+}, {
+  "Historical_Characters" : [ ],
+  "Title" : "Hòa Bình",
+  "ID" : 114,
+  "Historical_Events" : [ ]
+}, {
+  "Historical_Characters" : [ ],
+  "Title" : "Lai Châu",
+  "ID" : 115,
+  "Historical_Events" : [ "Khoảng 2 vạn 8 nghìn năm trước: Có đồ đá của Người nguyên thủy (-28000 - ?)" ]
+}, {
+  "Historical_Characters" : [ ],
+  "Title" : "Đắk Nông",
+  "ID" : 116,
+  "Historical_Events" : [ ]
+}, {
+  "Historical_Characters" : [ "Ksor Ní (1924 - 2019)" ],
+  "Title" : "Gia Lai",
+  "ID" : 117,
+  "Historical_Events" : [ "Chiến dịch Bắc Tây Nguyên trong kháng chiến chống Mỹ (1972 - 1972)" ]
+}, {
+  "Historical_Characters" : [ "Ngụy Như Kontum (1913 - 1991)" ],
+  "Title" : "Kon Tum",
+  "ID" : 118,
+  "Historical_Events" : [ "Chiến dịch Bắc Tây Nguyên trong kháng chiến chống Mỹ (1972 - 1972)" ]
+}, {
+  "Historical_Characters" : [ ],
+  "Title" : "Lâm Ðồng",
+  "ID" : 119,
+  "Historical_Events" : [ "Khoảng 2 vạn 1 nghìn năm trước: Có văn hóa Sơn Vi (-21000 - ?)" ]
+}, {
+  "Historical_Characters" : [ ],
+  "Title" : "Cai Lậy",
+  "ID" : 120,
+  "Historical_Events" : [ "Chiến thắng Ấp Bắc (1963 - ?)" ]
+}, {
+  "Historical_Characters" : [ "Hồ Biểu Chánh (1885 - 1958)" ],
+  "Title" : "Gò Công",
+  "ID" : 121,
+  "Historical_Events" : [ ]
+}, {
+  "Historical_Characters" : [ ],
+  "Title" : "Thuận Thành",
+  "ID" : 122,
+  "Historical_Events" : [ "Kinh Dương Vương lên ngôi (-2879 - 258)" ]
+}, {
+  "Historical_Characters" : [ "Mạc Thị Bưởi (1927 - 1951)", "Lương Nhữ Hộc (1420 - 1501)", "Yết Kiêu", "Tuệ Tĩnh (1330 - ?)", "Vũ Tông Phan (1800 - 1851)" ],
+  "Title" : "Hải Dương",
+  "ID" : 123,
+  "Historical_Events" : [ "Cuộc kháng chiến chống quân Lương của nước Vạn Xuân (545 - 603)" ]
+}, {
+  "Historical_Characters" : [ ],
+  "Title" : "Đông Anh",
+  "ID" : 124,
+  "Historical_Events" : [ ]
+}, {
+  "Historical_Characters" : [ ],
+  "Title" : "Son Tây",
+  "ID" : 125,
+  "Historical_Events" : [ ]
+}, {
+  "Historical_Characters" : [ ],
+  "Title" : "Mê Linh",
+  "ID" : 126,
+  "Historical_Events" : [ "Hai Bà Trưng liên kết Thi Sách chiêu mộ nghĩa binh (39 - ?)", "Cuộc khởi nghĩa Hai Bà Trưng bùng nổ (40 - ?)" ]
+}, {
+  "Historical_Characters" : [ ],
+  "Title" : "Vị Xuyên",
+  "ID" : 127,
+  "Historical_Events" : [ "Trận chiến Vị Xuyên (1984 - ?)" ]
+}, {
+  "Historical_Characters" : [ ],
+  "Title" : "Chi Lăng",
+  "ID" : 128,
+  "Historical_Events" : [ ]
+}, {
+  "Historical_Characters" : [ ],
+  "Title" : "Xuân Lộc",
+  "ID" : 129,
+  "Historical_Events" : [ "Chiến dịch tiến công tuyến phòng thủ Xuân Lộc - Long Khánh (1975 - 1975)" ]
+}, {
+  "Historical_Characters" : [ ],
+  "Title" : "Đồng Xoài",
+  "ID" : 130,
+  "Historical_Events" : [ "Chiến dịch Đồng Xoài (1965 - 1965)" ]
+}, {
+  "Historical_Characters" : [ ],
+  "Title" : "Phuớc Long",
+  "ID" : 131,
+  "Historical_Events" : [ "Chiến dịch Đường 14-Phước Long (1974 - 1975)" ]
+}, {
+  "Historical_Characters" : [ ],
+  "Title" : "Đồng Hới",
+  "ID" : 132,
+  "Historical_Events" : [ "Trận Lũy Thầy (1672 - 1672)", "Trận Trấn Ninh giữa quân Tây Sơn và quân Nhà Nguyễn (1802 - ?)" ]
+}, {
+  "Historical_Characters" : [ ],
+  "Title" : "An Lão",
+  "ID" : 133,
+  "Historical_Events" : [ "Chiến thắng An Lão (1964 - 1964)" ]
+}, {
+  "Historical_Characters" : [ ],
+  "Title" : "Tây Sơn",
+  "ID" : 134,
+  "Historical_Events" : [ ]
+}, {
+  "Historical_Characters" : [ "Tạ Chí Đại Trường (1938 - 2016)" ],
+  "Title" : "Nha Trang",
+  "ID" : 135,
+  "Historical_Events" : [ ]
+}, {
+  "Historical_Characters" : [ ],
+  "Title" : "Bình Sơn",
+  "ID" : 136,
+  "Historical_Events" : [ "Chiến thắng Vạn Tường (1965 - ?)" ]
+}, {
+  "Historical_Characters" : [ ],
+  "Title" : "Sơn Tịnh",
+  "ID" : 137,
+  "Historical_Events" : [ "Chiến thắng Ba Gia (1965 - 1965)" ]
+}, {
+  "Historical_Characters" : [ ],
+  "Title" : "Khe Sanh",
+  "ID" : 138,
+  "Historical_Events" : [ "Chiến dịch tiến công Đường 9-Khe Sanh (1968 - 1968)" ]
+}, {
+  "Historical_Characters" : [ ],
+  "Title" : "Thuận An",
+  "ID" : 139,
+  "Historical_Events" : [ "Trận Cảng Eo đánh bại hạm đội Châu Âu (1643 - ?)" ]
+}, {
+  "Historical_Characters" : [ ],
+  "Title" : "Thọ Nguyên",
+  "ID" : 140,
+  "Historical_Events" : [ "Trận đánh Đa Căng (1424 - ?)" ]
+}, {
+  "Historical_Characters" : [ ],
+  "Title" : "Ân Ðức",
+  "ID" : 141,
+  "Historical_Events" : [ "Khởi nghĩa chàng Lía (1800 - ?)" ]
+}, {
+  "Historical_Characters" : [ ],
+  "Title" : "Hoài Châu Bắc",
+  "ID" : 142,
+  "Historical_Events" : [ "Chiến thắng Đồi 10 (1965 - 1965)" ]
+}, {
+  "Historical_Characters" : [ ],
+  "Title" : "Mỹ Phong",
+  "ID" : 143,
+  "Historical_Events" : [ "Chiến thắng Đèo Nhông - Dương Liễu (1965 - ?)" ]
+}, {
+  "Historical_Characters" : [ ],
+  "Title" : "Phú phong",
+  "ID" : 144,
+  "Historical_Events" : [ ]
+}, {
+  "Historical_Characters" : [ ],
+  "Title" : "Tây Vinh",
+  "ID" : 145,
+  "Historical_Events" : [ "Thảm sát Gò Dài (1966 - ?)" ]
+}, {
+  "Historical_Characters" : [ ],
+  "Title" : "Phuớc Son",
+  "ID" : 146,
+  "Historical_Events" : [ ]
+}, {
+  "Historical_Characters" : [ ],
+  "Title" : "Hòa Trị",
+  "ID" : 147,
+  "Historical_Events" : [ ]
+}, {
+  "Historical_Characters" : [ ],
+  "Title" : "Điện Nam Bắc",
+  "ID" : 148,
+  "Historical_Events" : [ ]
+}, {
+  "Historical_Characters" : [ ],
+  "Title" : "Muờng Thanh",
+  "ID" : 149,
+  "Historical_Events" : [ ]
+}, {
+  "Historical_Characters" : [ "Sương Nguyệt Anh (1864 - 1924)", "Nguyễn Đình Chiểu (1822 - 1888)" ],
+  "Title" : "Ba Tri",
+  "ID" : 150,
+  "Historical_Events" : [ ]
+}, {
+  "Historical_Characters" : [ "Nguyễn Thái Bình (1948 - 1972)", "Trần Văn Giàu (1911 - 2010)", "Nguyễn Hữu Thọ (1910 - 1996)", "Huỳnh Văn Gấm (1922 - 1987)", "Trần Thiện Khiêm (1925 - 2021)" ],
+  "Title" : "Long An",
+  "ID" : 151,
+  "Historical_Events" : [ ]
+}, {
+  "Historical_Characters" : [ "Thích Quảng Đức (1897 - 1963)" ],
+  "Title" : "Khánh Hòa",
+  "ID" : 152,
+  "Historical_Events" : [ ]
+}, {
+  "Historical_Characters" : [ "Trần Quang Diệu (? - 1802)", "Bùi Thị Xuân (? - 1802)", "Xuân Diệu (1916 - 1985)", "Bùi Văn Ga (1957 - ?)", "Hàn Châu (1947 - ?)" ],
+  "Title" : "Bình Định",
+  "ID" : 153,
+  "Historical_Events" : [ "Lý Thái Tông mang quân đánh Chiêm Thành (1044 - ?)" ]
+}, {
+  "Historical_Characters" : [ ],
+  "Title" : "Quy Nhơn",
+  "ID" : 154,
+  "Historical_Events" : [ ]
+}, {
+  "Historical_Characters" : [ ],
+  "Title" : "Chiết Giang (Zhejiang)",
+  "ID" : 155,
+  "Historical_Events" : [ ]
+}, {
+  "Historical_Characters" : [ ],
+  "Title" : "Sơn La",
+  "ID" : 156,
+  "Historical_Events" : [ ]
+}, {
+  "Historical_Characters" : [ "Trịnh Công Sơn (1939 - 2001)" ],
+  "Title" : "Đắk Lắk",
+  "ID" : 157,
+  "Historical_Events" : [ ]
+}, {
+  "Historical_Characters" : [ ],
+  "Title" : "Chu Diên",
+  "ID" : 158,
+  "Historical_Events" : [ ]
+}, {
+  "Historical_Characters" : [ ],
+  "Title" : "Thị Nại",
+  "ID" : 159,
+  "Historical_Events" : [ "Trận chiến ở đầm Thị Nại (1801 - 1801)" ]
+}, {
+  "Historical_Characters" : [ ],
+  "Title" : "Hoàng Sa",
+  "ID" : 160,
+  "Historical_Events" : [ "Hải Chiến Hoàng Sa (1974 - ?)" ]
+}, {
+  "Historical_Characters" : [ ],
+  "Title" : "Trường Sa",
+  "ID" : 161,
+  "Historical_Events" : [ ]
+}, {
+  "Historical_Characters" : [ ],
+  "Title" : "Như Nguyệt",
+  "ID" : 162,
+  "Historical_Events" : [ ]
+}, {
+  "Historical_Characters" : [ ],
+  "Title" : "Hóa",
+  "ID" : 163,
+  "Historical_Events" : [ "Trận Bắc Lệ (1884 - ?)" ]
+}, {
+  "Historical_Characters" : [ ],
+  "Title" : "Nhà Mạc",
+  "ID" : 164,
+  "Historical_Events" : [ "Đánh chiếm thành Tuyên (1884 - 1885)" ]
+}, {
+  "Historical_Characters" : [ ],
+  "Title" : "Hưng Hóa",
+  "ID" : 165,
+  "Historical_Events" : [ "Tấn công thành Hưng Hóa (1884 - 1884)" ]
+}, {
+  "Historical_Characters" : [ ],
+  "Title" : "Bắc Ninh",
+  "ID" : 166,
+  "Historical_Events" : [ "Pháp đánh thành Bắc Ninh (1884 - 1884)" ]
+}, {
+  "Historical_Characters" : [ ],
+  "Title" : "Trường Sơn",
+  "ID" : 167,
+  "Historical_Events" : [ ]
+}, {
+  "Historical_Characters" : [ ],
+  "Title" : "Phước Long",
+  "ID" : 168,
+  "Historical_Events" : [ "Chiến dịch Đường 14-Phước Long (1974 - 1975)" ]
+}, {
+  "Historical_Characters" : [ ],
+  "Title" : "Lò Gò - Xa Mát",
+  "ID" : 169,
+  "Historical_Events" : [ "Mỹ thất bại trong cuộc hành quân Junction City của quân Mỹ (1967 - 1967)" ]
+}, {
+  "Historical_Characters" : [ ],
+  "Title" : "Ia Drăng",
+  "ID" : 170,
+  "Historical_Events" : [ "Trận đánh thung lũng Ia Drăng (1965 - 1965)" ]
+}, {
+  "Historical_Characters" : [ ],
+  "Title" : "Làng Vây",
+  "ID" : 171,
+  "Historical_Events" : [ "Trận Tà Mây - Làng Vây (1968 - 1968)" ]
+}, {
+  "Historical_Characters" : [ ],
+  "Title" : "Cửa Việt",
+  "ID" : 172,
+  "Historical_Events" : [ "Trận Cửa Việt" ]
+}, {
+  "Historical_Characters" : [ ],
+  "Title" : "Hoa Kỳ",
+  "ID" : 173,
+  "Historical_Events" : [ ]
+}, {
+  "Historical_Characters" : [ ],
+  "Title" : "Italy",
+  "ID" : 174,
+  "Historical_Events" : [ ]
+}, {
+  "Historical_Characters" : [ ],
+  "Title" : "Pháp",
+  "ID" : 175,
+  "Historical_Events" : [ ]
+}, {
+  "Historical_Characters" : [ ],
+  "Title" : "Anh",
+  "ID" : 176,
+  "Historical_Events" : [ ]
+}, {
+  "Historical_Characters" : [ ],
+  "Title" : "Pháp",
+  "ID" : 177,
+  "Historical_Events" : [ ]
+}, {
+  "Historical_Characters" : [ ],
+  "Title" : "Trung Quốc",
+  "ID" : 178,
+  "Historical_Events" : [ ]
+}, {
+  "Historical_Characters" : [ ],
+  "Title" : "Pháp",
+  "ID" : 179,
+  "Historical_Events" : [ ]
+}, {
+  "Historical_Characters" : [ ],
+  "Title" : "Thái Lan",
+  "ID" : 180,
+  "Historical_Events" : [ ]
+}, {
+  "Historical_Characters" : [ ],
+  "Title" : "Lào",
+  "ID" : 181,
+  "Historical_Events" : [ ]
+}, {
+  "Historical_Characters" : [ ],
+  "Title" : "Nam Mỹ",
+  "ID" : 182,
+  "Historical_Events" : [ ]
+}, {
+  "Historical_Characters" : [ "Đặng Thùy Trâm (1942 - 1970)", "Phan Lương Cầm (1943 - ?)", "Bùi Công Trừng (1905 - 1977)", "Cao Huy Thuần", "Lê Văn Cường (1946 - ?)" ],
+  "Title" : "Thừa Thiên Huế",
+  "ID" : 183,
+  "Historical_Events" : [ ]
+}, {
+  "Historical_Characters" : [ ],
+  "Title" : "Lâm Đồng",
+  "ID" : 184,
+  "Historical_Events" : [ ]
+}, {
+  "Historical_Characters" : [ ],
+  "Title" : "Canada",
+  "ID" : 185,
+  "Historical_Events" : [ ]
+}, {
+  "Historical_Characters" : [ ],
+  "Title" : "Pháp",
+  "ID" : 186,
+  "Historical_Events" : [ ]
+}, {
+  "Historical_Characters" : [ "Nguyễn Thế Anh (1936 - ?)" ],
+  "Title" : "Lào",
+  "ID" : 187,
+  "Historical_Events" : [ ]
+}, {
+  "Historical_Characters" : [ ],
+  "Title" : "Pháp",
+  "ID" : 188,
+  "Historical_Events" : [ ]
 } ]

@@ -108,7 +108,7 @@ public class SuKien extends HistoricalItem{
 		}
 		
 		ddBuffer.append("\n- Các địa điểm liên quan đến sự kiện:\n");
-		for(String dd : nhanVat) {
+		for(String dd : diaDiem) {
 			ddBuffer.append("+ " + dd +"\n");
 		}
 		

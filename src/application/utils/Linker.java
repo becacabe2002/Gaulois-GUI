@@ -18,7 +18,7 @@ public class Linker {
 			for(int i = 0; i < inputNV.size();i++) {
 				NhanVat tempNV = inputNV.get(i);
 				String tempName = tempNV.getTitle();
-				if(tempName.toLowerCase().equals(nv.toLowerCase())) {
+				if(tempName.toLowerCase().contains(nv.toLowerCase())) {
 					res.add(tempNV);
 				} else continue;
 			}
@@ -32,7 +32,7 @@ public class Linker {
 			for(int i = 0; i < inputSK.size();i++) {
 				SuKien tempSK = inputSK.get(i);
 				String tempName = tempSK.getTitle();
-				if(tempName.toLowerCase().equals(sk.toLowerCase())) {
+				if(tempName.toLowerCase().contains(sk.toLowerCase())) {
 					res.add(tempSK);
 				} else continue;
 			}
@@ -51,7 +51,7 @@ public class Linker {
 			for(int i = 0; i < inputDiaDiem.size();i++) {
 				DiaDiem tempDD = inputDiaDiem.get(i);
 				String tempName = tempDD.getTitle();
-				if(tempName.toLowerCase().contains(nameDiaDiem)) {
+				if(tempName.toLowerCase().contains(nameDiaDiem.toLowerCase())) {
 					res.add(tempDD);
 				} else continue;
 			}
@@ -65,7 +65,7 @@ public class Linker {
 			for(int i = 0; i < inputNV.size();i++) {
 				NhanVat tempNV = inputNV.get(i);
 				String tempName = tempNV.getTitle();
-				if(tempName.toLowerCase().contains(nv)) {
+				if(tempName.toLowerCase().contains(nv.toLowerCase())) {
 					res.add(tempNV);
 				} else continue;
 			}
@@ -81,11 +81,11 @@ public class Linker {
 	 */
 	public static ObservableList<SuKien> SKLinkedNV(NhanVat nv, ObservableList<SuKien> inputSK){
 		ObservableList<SuKien> res = FXCollections.observableArrayList();
-		for(String sk : nv.getNhanVat()) {
+		for(String sk : nv.getSuKien()) {
 			for(int i = 0; i < inputSK.size();i++) {
 				SuKien tempSK = inputSK.get(i);
 				String tempName = tempSK.getTitle();
-				if(tempName.toLowerCase().contains(sk)) {
+				if(tempName.toLowerCase().contains(sk.toLowerCase())) {
 					res.add(tempSK);
 				} else continue;
 			}
@@ -99,7 +99,7 @@ public class Linker {
 			for(int i = 0; i < inputNV.size();i++) {
 				NhanVat tempNV = inputNV.get(i);
 				String tempName = tempNV.getTitle();
-				if(tempName.toLowerCase().contains(nvStr)) {
+				if(tempName.toLowerCase().contains(nvStr.toLowerCase())) {
 					res.add(tempNV);
 				} else continue;
 			}
@@ -113,7 +113,7 @@ public class Linker {
 			for(int i = 0; i < inputDD.size();i++) {
 				DiaDiem tempDD = inputDD.get(i);
 				String tempName = tempDD.getTitle();
-				if(tempName.toLowerCase().contains(dd)) {
+				if(tempName.toLowerCase().contains(dd.toLowerCase())) {
 					res.add(tempDD);
 				} else continue;
 			}
@@ -133,7 +133,7 @@ public class Linker {
 		for(int i = 0; i < inputTD.size();i++) {
 			TrieuDai tempTD = inputTD.get(i);
 			String tempName = tempTD.getTitle();
-			if(tempName.toLowerCase().contains(tdStr)) {
+			if(tempName.toLowerCase().contains(tdStr.toLowerCase())) {
 				res.add(tempTD);
 			} else continue;
 		}
@@ -146,7 +146,7 @@ public class Linker {
 			for(int i = 0; i < inputNV.size();i++) {
 				NhanVat tempNV = inputNV.get(i);
 				String tempName = tempNV.getTitle();
-				if(tempName.toLowerCase().contains(nv)) {
+				if(tempName.toLowerCase().contains(nv.toLowerCase())) {
 					res.add(tempNV);
 				} else continue;
 			}
@@ -160,7 +160,7 @@ public class Linker {
 			for(int i = 0; i < inputDD.size();i++) {
 				DiaDiem tempDD = inputDD.get(i);
 				String tempName = tempDD.getTitle();
-				if(tempName.toLowerCase().contains(dd)) {
+				if(dd.toLowerCase().contains(tempName.toLowerCase())) {
 					res.add(tempDD);
 				} else continue;
 			}
@@ -180,7 +180,7 @@ public class Linker {
 			for(int i = 0; i < inputSK.size();i++) {
 				SuKien tempSK = inputSK.get(i);
 				String tempName = tempSK.getTitle();
-				if(tempName.toLowerCase().contains(sk)) {
+				if(tempName.toLowerCase().contains(sk.toLowerCase())) {
 					res.add(tempSK);
 				} else continue;
 			}
@@ -194,7 +194,7 @@ public class Linker {
 			for(int i = 0; i < inputNV.size();i++) {
 				NhanVat tempNV = inputNV.get(i);
 				String tempName = tempNV.getTitle();
-				if(tempName.toLowerCase().contains(nv)) {
+				if(tempName.toLowerCase().contains(nv.toLowerCase())) {
 					res.add(tempNV);
 				} else continue;
 			}
@@ -208,7 +208,7 @@ public class Linker {
 			for(int i = 0; i < inputDD.size();i++) {
 				DiaDiem tempDD = inputDD.get(i);
 				String tempName = tempDD.getTitle();
-				if(tempName.toLowerCase().contains(dd)) {
+				if(tempName.toLowerCase().contains(dd.toLowerCase())) {
 					res.add(tempDD);
 				} else continue;
 			}

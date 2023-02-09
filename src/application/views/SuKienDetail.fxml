@@ -35,5 +35,7 @@
             <Font size="14.0" />
          </font>
       </TextArea>
+       <Button fx:id="RelatedNVBtn" layoutX="311.0" layoutY="453.0" mnemonicParsing="false" onAction="#pressRelatedNVBtn" prefHeight="29.0" prefWidth="142.0" text="Nhân vật liên quan" />
+      <Button fx:id="RelatedDDBtn" layoutX="600.0" layoutY="453.0" mnemonicParsing="false" onAction="#pressRelatedDDBtn" prefHeight="29.0" prefWidth="142.0" text="Địa điểm liên quan" />
    </children>
 </AnchorPane>

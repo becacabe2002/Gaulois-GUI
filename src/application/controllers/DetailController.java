@@ -31,7 +31,7 @@ public class DetailController{
     }
     
     protected <T extends HistoricalItem> boolean searchFindsOrder(T t, String searchText){
-        return (t.getTitle().toLowerCase().contains(searchText));
+        return (t.getTitle().toLowerCase().contains(searchText.toLowerCase()));
     }
     
     protected <T extends HistoricalItem> ObservableList<T> filterList(List<T> ls, String searchText){

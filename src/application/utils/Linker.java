@@ -18,7 +18,7 @@ public class Linker {
 			for(int i = 0; i < inputNV.size();i++) {
 				NhanVat tempNV = inputNV.get(i);
 				String tempName = tempNV.getTitle();
-				if(tempName.toLowerCase().contains(nv)) {
+				if(tempName.toLowerCase().equals(nv.toLowerCase())) {
 					res.add(tempNV);
 				} else continue;
 			}
@@ -32,7 +32,7 @@ public class Linker {
 			for(int i = 0; i < inputSK.size();i++) {
 				SuKien tempSK = inputSK.get(i);
 				String tempName = tempSK.getTitle();
-				if(tempName.toLowerCase().contains(sk)) {
+				if(tempName.toLowerCase().equals(sk.toLowerCase())) {
 					res.add(tempSK);
 				} else continue;
 			}

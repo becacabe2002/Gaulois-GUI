@@ -39,5 +39,7 @@
             <Font size="14.0" />
          </font>
       </TextArea>
+      <Button fx:id="RelatedNVBtn" layoutX="314.0" layoutY="453.0" mnemonicParsing="false" onAction="#pressRelatedNVBtn" prefHeight="29.0" prefWidth="128.0" text="Related NV" />
+      <Button fx:id="RelatedSKBtn" layoutX="612.0" layoutY="453.0" mnemonicParsing="false" onAction="#pressRelatedSKBtn" prefHeight="29.0" prefWidth="128.0" text="Related SK" />
    </children>
 </AnchorPane>

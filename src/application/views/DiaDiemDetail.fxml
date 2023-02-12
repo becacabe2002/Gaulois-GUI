@@ -19,7 +19,7 @@
         </columns>
       </TableView>
       <Button fx:id="detailBtn" layoutX="470.0" layoutY="453.0" mnemonicParsing="false" onAction="#pressDetailBtn" prefHeight="29.0" prefWidth="118.0" text="Details" />
-      <Label fx:id="nameLabel" layoutX="311.0" layoutY="47.0" prefHeight="40.0" prefWidth="163.0" text="DiaDiem" wrapText="true">
+      <Label fx:id="nameLabel" layoutX="311.0" layoutY="47.0" prefHeight="40.0" prefWidth="163.0" text="Địa điểm" wrapText="true">
          <font>
             <Font name="System Bold Italic" size="17.0" />
          </font>
